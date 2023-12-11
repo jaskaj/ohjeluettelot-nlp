@@ -1,4 +1,4 @@
-,label,item_id,text,label_count
+,label_num,label,text,label_count
 0,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
 1,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
 2,153,work-cb437cb0-6fb0-4d44-8452-751acdc04b28,Åbo slott,2
@@ -189,1513 +189,193 @@
 187,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,En visa,8
 188,177,work-55a0846a-8b64-4f83-bd63-068c8236f4b5,Vredens barn,2
 189,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderes Nachtlied,22
-190,32,part-2af05336-e93e-4efd-aec0-a5f83ecd90cb,Kanteletar. Pastoraali,2
-191,241,part-c9310f5e-5a39-4f48-8b97-43979157295e,"Kappaleet, piano, op4. Nro 1, Etude",2
-192,71,part-dd98dc85-f55a-47d4-a7c9-afebf64c476e,"Kappaleet, piano, op4. Nro 2, Valse",2
-193,163,part-b3c9b5b7-63d5-48c6-9ef2-57dafdd8d937,"Kappaleet, piano, op4. Nro 3, Allegro con brio",2
-194,41,part-742c0767-982e-4894-bae4-58524897ab6f,Kuopio-kantaatti. Peltomiehen syyslaulu,4
-195,74,part-8b33fe4f-ba09-4be9-a90b-4af8ede2e50a,Laulu tulipunaisesta kukasta. Joki,2
-196,213,part-bdd01bfc-9ac1-4bee-93a0-0a547f816ad5,Laulu tulipunaisesta kukasta. Koskenlasku,2
-197,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,"Luvattu maa (sarja). Nro 1, Johdanto",6
-198,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,Israelin orjuus,6
-199,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,"Luvattu maa, sarja. Nro 1, Johdanto",6
-200,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,"Luvattu maa (sarja). Nro 2, Elitzeban valitus",6
-201,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,Elitzebas klagan,6
-202,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,"Luvattu maa, sarja. Nro 2, Elitzeban valitus",6
-203,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,"Luvattu maa (sarja). Nro 3, Tanssit",6
-204,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,Ballet I,6
-205,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,"Luvattu maa, sarja. Nro 3, Tanssit",6
-206,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Maan sävel. Mieron pojat korvessa,10
-207,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-208,85,part-6d273b53-0c94-400c-ae82-f22d0ad4fc57,Miranda. Najadens sång,2
-209,34,part-a8ab1bfd-e1d3-40b4-b303-9296aa76d4fe,Miranda. Nymf och trolldans,2
-210,219,part-976d6571-95c3-48ec-9819-b072ee9da360,Normaalilyseon 50-vuotisriemujuhlakantaatti. Ja kesä oli parhaillaan,2
-211,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-212,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat. kamariork. Nro 1, Preludi",80
-213,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri. Nro 1, Preludi",80
-214,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat, orkesteri (1895). Nro 2, Andante",6
-215,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat. kamariork. Nro 2, Andante",6
-216,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat, orkesteri. Nro 2, Andante",6
-217,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat, orkesteri (1895). Nro 3, Scherzo",6
-218,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat. kamariork. Nro 3, Scherzo",6
-219,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat, orkesteri. Nro 3, Scherzo",6
-220,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat, orkesteri (1895). Nro 4, Adagio",6
-221,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat. kamariork. Nro 4, Adagio",6
-222,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat, orkesteri. Nro 4, Adagio",6
-223,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat, orkesteri (1895). Nro 5, Allegro",6
-224,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat. kamariork. Nro 5, Allegro",6
-225,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat, orkesteri. Nro 5, Allegro",6
-226,100,arrangement-8dbedfa7-d880-4897-a059-a6c3532fe827,"Berceuset, kamariork., ruotsi (Slumra, sov i ro, mitt hjärtebarn)",2
-227,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, orkesteri; sovitettu, piano",26
-228,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, kamariork.; sov., piano",26
-229,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, orkesteri; sovitettu, sello, piano",24
-230,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, kamariork.; sov., sello, piano",24
-231,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-232,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano",72
-233,5,arrangement-9896ca43-064a-4653-972e-eb22d03b1c3e,"Gute Ruhe; sovitettu, sekakuoro",4
-234,5,arrangement-9896ca43-064a-4653-972e-eb22d03b1c3e,"Gute Ruhe; sov., sekakuoro",4
-235,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Hyljätyn valitus; sovitettu, puhallinyhtye",18
-236,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain,18
-237,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Hyljätyn valitus; sov., puhallinyhtye",18
-238,160,arrangement-931e1bba-8a19-4efb-9e2d-1de6b63a2507,"Kanteletar. Pastoraali; sov., kamariork.",2
-239,103,arrangement-79a3fa9d-8544-4afd-bc82-d78d8a57b6ba,"Lapsuuden ajoilta; sovitettu, pianot (2)",4
-240,103,arrangement-79a3fa9d-8544-4afd-bc82-d78d8a57b6ba,"Lapsuuden ajoilta; sov., pianot (2)",4
-241,128,arrangement-6e1562e8-00bb-4738-9d09-9fe23f8d0cac,"På havet; sovitettu, lauluääni, piano",4
-242,128,arrangement-6e1562e8-00bb-4738-9d09-9fe23f8d0cac,"På havet; sov., lauluääni, piano",4
-243,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano",24
-244,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat. kamariork. Nro 1, Preludi; sov., piano",24
-245,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri. Nro 1, Preludi; sovitettu, piano",24
-246,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-247,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat. kamariork. Nro 1, Preludi; sov., piano, 4-kät.",16
-248,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri. Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-249,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,"Sunnuntaina; sovitettu, lauluääni, sekakuoro",6
-250,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,Sunnuntai,6
-251,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,"Sunnuntaina; sov., lauluääni, sekakuoro",6
-252,29,arrangement-da8c9227-e510-40f2-9384-050dd0e7527e,"Sunnuntaina; sovitettu, orkesteri",4
-253,29,arrangement-da8c9227-e510-40f2-9384-050dd0e7527e,"Sunnuntaina; sov., ork.",4
-254,9,arrangement-3ddb074e-2c42-4d9a-841e-747f35c18d4a,"Virran rannalla; sovitettu, orkesteri",4
-255,9,arrangement-3ddb074e-2c42-4d9a-841e-747f35c18d4a,"Virran rannalla; sov., ork.",4
-256,115,translation-d5162baf-d8a0-454a-a9fb-729ade5a9c30,"Aallon kehtolaulu, ruotsi (Vågens vaggsång)",2
-257,175,translation-2eabcf50-ac20-4856-b6c1-7f5717b1486f,"Aallon kehtolaulu, saksa (Der Welle Wiegenlied)",2
-258,192,translation-a7bc8217-884b-4450-b376-c6d39616a67b,"Anni, saksa",2
-259,61,translation-920b3e9c-376e-4b06-9fdf-1268790921d1,"Armasta odottaessa, ruotsi (Väntande för kärlingen)",2
-260,221,translation-55bd7a5d-8981-4e32-9c3d-696576f2cbc2,"Berceuset, kamariork., saksa (Schlafe, schlafe holdes Kindchen mein)",2
-261,37,translation-61dd4be8-6cd0-42e5-ada4-1b7180be39e2,"Berceuset, kamariork., suomi (Hopeinen laulu)",2
-262,214,translation-0846be0c-a14a-4de7-b01b-c57ce41cff85,"Berceuset, kamariork., suomi (Uinu, uinu, lapsi armainen)",2
-263,47,translation-cec04f2a-57df-4b17-8c63-bdd92a51c88c,"En drömmares sång till livet, saksa (Ein Trümers Sang ans Lieben)",2
-264,30,translation-5d1da356-e6a1-483e-abdd-2df4cd734c20,"En drömmares sång till livet, suomi (Uneksijan laulu elämälle)",2
-265,223,translation-d071b36d-24bf-42f8-b759-15532b3de73f,"Du, suomi (Sinä)",2
-266,147,translation-b30cfe6b-5c17-4877-9a3a-1786d4406f5d,"Fågeln, saksa (Der Vogel)",2
-267,240,translation-a4d6593a-e4fc-4c04-b2ba-3cb184b01a9e,"Fåglarna, suomi (Linnut)",2
-268,60,translation-9c8a1224-045d-46fb-a852-23922afdd21e,"Den flydda, islanti (Hin horfna)",2
-269,27,translation-a866420c-1494-4f65-b030-3ce45d682b78,"Den flydda, suomi (Mennyt)",2
-270,239,translation-85a0230b-4f3b-4196-aa59-fab35f6555cd,"I solnedgången, saksa (Im Sonnenuntergang)",2
-271,227,translation-b4df7c10-566e-4604-8e3f-2ffb5897b0f6,"Kanteleelle, ruotsi",2
-272,89,translation-fd2310f9-734d-4427-b050-914a74546167,"Kehtolaulu (Hiljaa, hiljaa! ilta on), saksa (Wiegenlied)",2
-273,155,translation-f7e0170a-f86a-4af6-b6bc-3818d6eabcbf,"Kehtolaulu (Liekku liiku, kätkyt kiiku), ruotsi (Vaggsång)",4
-274,155,translation-f7e0170a-f86a-4af6-b6bc-3818d6eabcbf,"Vaggsång (Gunga sakta, vagga akta)",4
-275,22,translation-59132757-b827-4fa8-8b87-cc0cfe6f9a0b,"Laula, laula, ruotsi (Sjung, sjung)",2
-276,133,translation-c622963c-08d2-47c6-83c8-887f8fe457d5,"Leivo, ruotsi (Lärkan)",2
-277,108,translation-46ebbd06-bc68-4771-b42e-25920da25b70,"Lina, saksa (Line)",2
-278,167,translation-2d84f0ba-010f-4770-894d-325dfcf5d085,"Lina, suomi (Liina)",2
-279,186,translation-c926e375-f243-4c52-9475-2f230d598d55,"Metsäkyyhkyset, ruotsi (Skogsduvor)",2
-280,23,translation-4edec4ff-f425-46d4-b3f9-9e54a91e66f0,"Milloin muistelet minua?, ruotsi (Säg, när mines du mig)",2
-281,59,translation-d4a7e756-df48-4e22-89ae-869329bb9dfc,"Milloin muistelet minua?, saksa (Sag' gedenkest du meiner)",2
-282,51,translation-eab3bbf9-a5e7-4df3-97f6-0741071789de,"När alla klockor klämtat tolf, saksa (Wenn alle Uhren zwölf geschlagen)",2
-283,19,translation-4aa096ad-6fce-4666-912a-669893fcefad,"Nocturne, saksa",2
-284,104,translation-cf5b954a-6e59-4091-bd68-fd5672a63926,"Onnelliset, ruotsi (De lyckliga)",2
-285,149,translation-f3f89aea-7a34-4534-b1be-2c59cbe65e7f,"Pääskylle, ruotsi (Till en svala)",2
-286,75,translation-b475fd91-c835-4e8d-9100-adbd8e2d0daa,"Pois meni merehen päivä, ruotsi (Han sjönk i havets sköte)",2
-287,83,translation-8e830682-b0ca-49b1-857b-769955d4dac6,"Puhjetessa kukka puhtahin, saksa (Blumen sind am schönsten erblüht)",2
-288,79,translation-f6187743-9c00-4e53-a52e-231f5041587d,"Silloinpa kesä minulla, ruotsi (Då stundar vårens tid för mig)",2
-289,174,translation-19f8ff45-0686-44e5-a937-f924865799f9,"Sirkka, islanti (Einu sinni svanur fagur)",2
-290,146,translation-7d52afd0-f2e7-443d-a747-1ec43cee84fa,"Sirkka, ruotsi (Syrsan)",2
-291,193,translation-3fbd10ae-1068-48ab-9ce0-ca181bcd6a03,"Skymning (När en gång), saksa (Dämmerung)",2
-292,58,translation-1d6be58b-16c2-4151-9774-77d786416fac,"Skymning (När en gång), suomi (Hämärä)",2
-293,194,translation-0768d575-df76-4a57-b7de-ed065229a9e8,"Solsken, saksa (Sonnenschein)",2
-294,129,translation-a8f956e6-f63c-43eb-b98f-84e5368efce7,"Sondbyn laulu, ruotsi",4
-295,129,translation-a8f956e6-f63c-43eb-b98f-84e5368efce7,Sondbysången,4
-296,117,translation-b7c3b0c2-346e-4de1-8dbf-426ea6ec1c8d,"En spel- och dansvisa, saksa",2
-297,243,translation-606a8907-b0fb-47eb-a6d2-5d7e7f1f3ba8,"Sunnuntaina, ruotsi (Söndag)",4
-298,243,translation-606a8907-b0fb-47eb-a6d2-5d7e7f1f3ba8,Söndag,4
-299,73,translation-93fd9cb9-de03-4968-8a12-af77ddb966d8,"Sunnuntaina, saksa (Sonntag)",4
-300,73,translation-93fd9cb9-de03-4968-8a12-af77ddb966d8,Sonntag,4
-301,233,translation-c13ff05b-a0ca-487f-9aec-f9adc783b376,"Suvirannalla, ruotsi (Sommarnatt på stranden)",4
-302,233,translation-c13ff05b-a0ca-487f-9aec-f9adc783b376,Sommarnatt på stranden,4
-303,82,translation-9ddf279b-26da-44b4-a5c0-28ac78663bc3,"Titania, saksa",2
-304,130,translation-57b45b9a-3c2d-4e3b-9cde-5b6d1590b2a3,"Titania, suomi",2
-305,4,translation-66eb27a5-6caa-4567-8a00-9dc5c28b30d5,"Toivoni, ruotsi (Önskan)",4
-306,4,translation-66eb27a5-6caa-4567-8a00-9dc5c28b30d5,Önskan,4
-307,204,translation-dd8a9b3c-7378-4b8f-8685-dd2aa7509c49,"Unelma, ruotsi (Dröm)",4
-308,204,translation-dd8a9b3c-7378-4b8f-8685-dd2aa7509c49,Dröm,4
-309,225,translation-94cab186-b58e-4ee3-bd2b-a824eb23df4f,"Vågsång, saksa",2
-310,202,translation-d86830fd-558f-40f2-b6ca-201ed943e293,"Den vakande modern, saksa (Die wachende Mutter)",4
-311,202,translation-d86830fd-558f-40f2-b6ca-201ed943e293,Die wachende Mutter,4
-312,176,translation-032bbbae-01bf-4eac-9e9d-a9f32b785b6e,"Vårdroppen, saksa (Eine Träne)",4
-313,176,translation-032bbbae-01bf-4eac-9e9d-a9f32b785b6e,Eine Träne,4
-314,48,translation-877eb77f-bb9a-4c7b-b138-f239b52d26a5,"Vårdroppen, suomi (Kevätpisara)",4
-315,48,translation-877eb77f-bb9a-4c7b-b138-f239b52d26a5,Kevätpisara,4
-316,55,translation-8474cd93-6d25-46a4-b352-c4129d628131,"Varpunen, ruotsi (Sparven)",4
-317,55,translation-8474cd93-6d25-46a4-b352-c4129d628131,Sparven,4
-318,12,translation-c4d7d081-22e8-4aa5-a13f-453c493c81c7,"Viel' ois virttä tieossani, ruotsi (Än en visa vill jag sjunga)",2
-319,90,translation-5b1ef635-97eb-40f9-b4ba-55feed96640c,"Vill du komma med mig?, suomi (Tule kanssain)",4
-320,90,translation-5b1ef635-97eb-40f9-b4ba-55feed96640c,Tule kanssain,4
-321,123,translation-739a5b82-c8c6-41df-8168-e12b22f56f92,"Wanderes Nachtlied, suomi (Kulkijan valitus)",4
-322,123,translation-739a5b82-c8c6-41df-8168-e12b22f56f92,Kulkijan valitus,4
-323,124,translation-25112d71-72e1-40aa-9df9-3f5652248757,"Wanderes Nachtlied, suomi (Vaeltajan yölaulu)",4
-324,124,translation-25112d71-72e1-40aa-9df9-3f5652248757,Vaeltajan yölaulu,4
-325,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
-326,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-327,153,work-cb437cb0-6fb0-4d44-8452-751acdc04b28,Åbo slott,2
-328,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot,12
-329,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Rajamailla,12
-330,67,work-66128cc9-07ad-4509-b9c0-5bab19828b2e,Am stillen Dorfe erhebt sich,4
-331,0,work-50827b4b-4726-4f94-8d3b-0ea8272eaff4,"Andante, jousiorkesteri",4
-332,0,work-50827b4b-4726-4f94-8d3b-0ea8272eaff4,"Andante, jousiork.",4
-333,39,work-3b097923-dfef-4885-8458-7ec2c12fa2e4,Andre beten zur Madonna,2
-334,44,work-8d138f62-875e-43aa-82ff-472616d66963,Anni,2
-335,207,work-db4c0908-4ce5-4670-9238-029e69dfea0b,Armahan kulku,2
-336,28,work-62aa78b8-4c09-4adc-aa00-ea12237c4956,Armasta odottaessa,2
-337,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-338,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork.",88
-339,171,work-abc3e808-ab46-4c01-b318-d00578b1f514,Betlehems stjärna,2
-340,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
-341,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Häämarssi,16
-342,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto,16
-343,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen,6
-344,118,work-3bce4f40-e064-48bf-99a6-5d7362825c47,Carmen Careliense,4
-345,118,work-3bce4f40-e064-48bf-99a6-5d7362825c47,Joensuu-kantaatti,4
-346,143,work-1004bc8f-55b5-430b-b8bb-6ff127610a95,En dockvisa,2
-347,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,Die Drei,8
-348,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-349,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-350,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår",6
-351,188,work-49002e67-8524-47b3-b88d-633aa6d75754,Die Du bist so schön und rein,2
-352,189,work-884f057f-2b36-411b-b52c-50d46969803f,Du hast Diamanten und Perlen,2
-353,152,work-e356c364-f35b-4db5-82cf-ca2d56ad6e40,Dvärgens hämd,2
-354,42,work-be5cac31-1afa-4862-81b3-be1a05eb3772,Einsam schreitend wandl' ich,2
-355,154,work-fe639e91-7923-4202-8197-b215075b7c9b,Elämän laulu,2
-356,159,work-4e9ca920-d421-4308-bac9-69cc52f27178,Fågeln,4
-357,230,work-af2aeb42-2369-48e3-bc85-a1007e702e6c,Fåglarna,2
-358,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl,6
-359,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
-360,113,work-1cbce381-248f-42f4-ac70-304f082b52b3,Den flygande holländaren,2
-361,101,work-803ba36f-dec9-4d92-a09e-9657e2a9e322,Gute Ruhe,2
-362,81,work-307d996a-9433-48b8-a96e-220097cbf227,"Heimathklang, lauluääni, piano",6
-363,81,work-307d996a-9433-48b8-a96e-220097cbf227,Heimathklang,6
-364,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,"Heimathklang, orkesteri",8
-365,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotimaan kaikuja,8
-366,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotimaan sävel,8
-367,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotiseudun kaikuja,8
-368,151,work-90704812-9c60-4167-b713-cc3cb6937594,Hör ich das Liedchen klingen,2
-369,190,work-4ba9b2bd-6e04-440a-b848-d8eabfe72e79,Hyljätyn valitus,4
-370,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
-371,137,work-29163230-13ab-4860-8738-f819fe09b32f,Ich stand in dunkeln Träumen,2
-372,161,work-e1dd9b1d-f783-4834-8c4a-18e045956ba9,Ich wollte meine Lieder,2
-373,201,work-9ea0f8ad-ed87-43fd-bf23-f678a0b52b3a,Im Vaters Garten heimlich steht,2
-374,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot (kantaatti),12
-375,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot, kantaatti",12
-376,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot (laulu),12
-377,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot,12
-378,216,work-ef6b6479-84a4-44b1-9e5e-d392058ba559,Jes siunatkoon,4
-379,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Juhla-alkusoitto,8
-380,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Juhlakaikuja,6
-381,13,work-0566820c-7258-4aa0-ad5b-de712083a802,Kaiholle,2
-382,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Kallan kuoron lippulaulu,6
-383,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallan ranta,10
-384,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta-kantaatti,10
-385,14,work-a11c7a29-d305-4f56-b22b-faf874e8a3fa,Kantat vid St. Joh. Logens 175 årsjubileum,2
-386,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-387,106,work-055f9f0d-d185-40a9-b787-93c79dac65b8,Kanteletar,2
-388,52,work-d6294df5-da3a-414b-a8cd-36e85e09dc41,Karhunlaulu,2
-389,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa! ilta on)",18
-390,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,"Kehtolaulu (Liekku liiku, kätkyt kiiku)",20
-391,141,work-467810d4-25d5-4634-a1c4-aa4f78834f6d,Kesäilta,2
-392,64,work-46f0b1f5-cd10-4c4c-b006-3fc9387d8fd7,Kesäyö,2
-393,238,work-d0c6bd65-4c92-492b-8ee1-7c8af3acaf09,Kolme suomalaista kansanlaulua,4
-394,238,work-d0c6bd65-4c92-492b-8ee1-7c8af3acaf09,Tre finske folkviser,4
-395,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-396,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
-397,170,work-1811deb0-384c-4e8a-ae0b-f0fd9b5b1460,Köyhä,4
-398,120,work-da27adc1-0b51-4d22-8d48-c196dbb5c3f1,Kuopio-kantaatti,4
-399,120,work-da27adc1-0b51-4d22-8d48-c196dbb5c3f1,Kuopio,4
-400,148,work-b752dbb4-558b-4cc7-9b8a-d03e9c577453,Lapsuuden ajoilta,2
-401,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula",8
-402,144,work-0aac17ef-10c6-4946-a907-b62ee2e2e249,Laulajan koti,4
-403,229,work-e2ae48c2-fab5-4693-af0f-76302e984ae0,Laulajapoika,2
-404,212,work-03550f34-8947-4925-a8f5-0cdafa0893b0,Laulu tulipunaisesta kukasta,4
-405,212,work-03550f34-8947-4925-a8f5-0cdafa0893b0,Sången om den eldröda blomman,4
-406,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuokselle,6
-407,102,work-ce3db24a-42f2-46a7-9119-9978752753f7,Das Leben,2
-408,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-409,72,work-03efe84d-3fa8-462f-9b46-d6b3fbf0bcbc,Liebestraum,2
-410,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-411,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Luvattu maa (näytelmämusiikki),6
-412,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Det förlovade landet,6
-413,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Luvattu maa,6
-414,86,work-dc55493d-863a-4d6b-8e6a-544be9870912,Luvattu maa (sarja),4
-415,86,work-dc55493d-863a-4d6b-8e6a-544be9870912,"Luvattu maa, sarja",4
-416,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
-417,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Overture Lyrique,18
-418,2,work-5e4d00bc-11b0-4164-982c-a68e2e78e104,Mä lemmenkukan istutin,2
-419,35,work-a26737c0-a497-4779-92e7-51f55f0def2b,Maamme,2
-420,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
-421,231,work-1f20c9b4-b806-4399-a598-2879b7201ad8,Manch Bild vergessener Zeiten,2
-422,70,work-ed9f2734-7fbc-4ab7-a619-b5bcc9f43c55,Matkalla,4
-423,172,work-dfd0b070-e342-4e7a-b7dd-f8963a0d0f17,"Mein Liebchen, wir sassen beisammen",2
-424,46,work-56d61007-4fe8-4493-bd2c-9bc57de01aef,Metsäkyyhkyset,2
-425,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
-426,121,work-ba9a5b30-b4ab-47a0-a4f2-a5bc5bfe6cbf,Miranda,2
-427,222,work-9352bb9e-fd48-40bf-ba78-c84fed003ac8,Monimorsiamellinen,4
-428,24,work-f9a9a729-0846-4030-b38d-99e95e071c7d,"Muunnelmat, piano",4
-429,24,work-f9a9a729-0846-4030-b38d-99e95e071c7d,Variatioonia pianolle,4
-430,209,work-f4134cf7-4330-4ffc-bb4a-738f6efb728a,Muut ne kuuli kirkonkellon,2
-431,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-432,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne,12
-433,127,work-b2fc933b-144e-42dc-aa2b-ad53640215c9,"Nocturnet, piano",2
-434,185,work-abd3a207-1437-48e4-af33-3cbed82eb628,Normaalilyseon 50-vuotisriemujuhlakantaatti,2
-435,1,work-cea78876-4b15-481c-83a2-a4db9d591b5c,"Nu har han kommit, den gyllne vår",2
-436,199,work-32980192-a5a4-40c9-87ef-51d8145c1f80,Nyt valitkaa!,4
-437,96,work-2086ff3a-9b32-4b88-b462-19ee76b00c9e,"O, lüge nicht",2
-438,208,work-deaced24-ab04-4c40-ab14-268c60e652d7,Ödets stjärna,2
-439,234,work-43df518b-d6f4-49d4-9c89-18be1fc03b27,Omenan kukat,2
-440,65,work-3551edc1-c791-4d0c-8346-aecb151f0eb0,Onnelliset,4
-441,165,work-96dc24f7-e543-4013-bd23-74f398647cbf,Onneni saari,2
-442,183,work-36e07db8-e99d-421b-bcd5-7250fc4898f7,Orpo ja lintu,2
-443,69,work-c4a77052-8630-4cbf-a65d-e46fca9e008a,På havet,2
-444,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
-445,134,work-aa713513-5bd7-4462-80c6-f151dbe412a6,Paimenen pyhä,4
-446,7,work-21f010fb-0c3c-48ce-897f-081f185d00f0,Paimenten ilo,4
-447,20,work-ebcf0651-24e0-4437-8c5a-4aa043c90921,Paista päivä paimenelle,2
-448,33,work-70c55a95-92aa-47d6-8199-4472eab01ea5,Päivän poika,4
-449,15,work-b452f7fc-95a7-4eb1-b870-937bb157a13f,Pieni laulu Maikille,2
-450,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-451,191,work-21ed6ea6-95f6-4573-962a-e2e72c085783,Preludio funèbre,4
-452,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin,6
-453,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano",18
-454,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
-455,226,work-1ab454c5-d9ae-491b-8c17-770f3e785522,Så brådtom har nu mammor små,2
-456,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, orkesteri (1895)",6
-457,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, kamariork.",6
-458,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, orkesteri",6
-459,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, orkesteri, Es-duuri (1897)",10
-460,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,Kleine Suite,10
-461,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,Pieni sarja,10
-462,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, ork., Es-duuri",10
-463,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, orkesteri, Es-duuri",10
-464,168,work-f0c8bba9-4f91-467a-96aa-99b6d1d52a40,"Sarjat, viulu, piano, F-duuri",2
-465,88,work-1c09181e-e664-4c59-984e-b3f8b9e5bb3f,Satu,4
-466,31,work-e216d734-ebd3-4596-a86a-986c3c65482d,Serenad,2
-467,21,work-8fa53826-1919-4070-a0d2-306182c0ba7f,"Serenadit, orkesteri",4
-468,21,work-8fa53826-1919-4070-a0d2-306182c0ba7f,"Serenadit, ork.",4
-469,145,work-cf009960-fcbf-4679-8be0-cfe1432232eb,Silloinpa kesä minulla,4
-470,94,work-3b4e5168-e8d2-4a85-b7aa-72e182b06e6b,"Sinfoniat, D-duuri",2
-471,136,work-98350654-cacc-4750-9c28-06eeead0e5cb,Sinfoninen fantasia,4
-472,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-473,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
-474,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning (Vad detta svala),6
-475,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
-476,53,work-540a71c7-3658-4049-becf-1e1cd80d8608,Sondbyn laulu,2
-477,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-478,49,work-4d398dd6-203a-4ae5-ad42-fd75531c178b,Ständchen,4
-479,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-480,126,work-58f1e149-0f7d-4ac8-b161-81d4afeafee8,Suomalainen rapsodia,2
-481,138,work-197389b8-a022-41b1-990e-b8a64e99dad7,Suomen synty,2
-482,116,work-77bb83dd-51f3-4406-bf98-887544c9872f,Suottako Suomi luottaa Luojaansa,4
-483,205,work-c8abf587-e537-4ee6-b2c7-0654feab3eaa,Suuri salaisuus,2
-484,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-485,166,work-7a194b78-bee8-42cb-b92f-5df1045c14f7,Svanen,2
-486,11,work-57072835-4b19-4769-b899-15a331c26ade,Tanssin kulku,4
-487,111,work-f589c217-01fa-410e-8f26-2328a59402f7,Temppelinrakentajat,2
-488,197,work-6a3cd2e6-2744-4e62-9aab-216abaa7dddf,Till en brud,2
-489,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Titania,8
-490,57,work-29cb33e8-8e09-41f3-8e60-82aa0fcad6e5,Titus,2
-491,210,work-6cf523ef-d0f0-44a7-99c7-8bea24281558,Tohmajärven seurakunnan kirkonkellot,4
-492,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
-493,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografikunnan marssi,10
-494,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografkårens marsch,10
-495,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år,6
-496,62,work-03c3f52c-4fc6-4d09-9ed0-19cf10fb284f,Und weil mich das Leben belogen,2
-497,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
-498,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta,8
-499,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång,12
-500,119,work-71e788e5-22e1-47ed-8269-ebc2687bbefc,Den vakande modern,4
-501,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-502,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
-503,18,work-e6aea33e-14aa-43ac-8e0e-74380bc80231,Vasti,4
-504,18,work-e6aea33e-14aa-43ac-8e0e-74380bc80231,Valse lente,4
-505,173,work-b59ae6dd-02d0-443e-941d-ed2aa7264882,Venehelle tuulta,2
-506,99,work-ea0da36c-2336-44a3-9587-cbe94350b822,Venelaulu,4
-507,99,work-ea0da36c-2336-44a3-9587-cbe94350b822,Wenelaulu,4
-508,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-509,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' olis virttä tiedossani,24
-510,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
-511,232,work-66b8ab3c-63e1-43df-8fcf-ec47bb838c5c,Virran rannalla,4
-512,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,En visa,8
-513,177,work-55a0846a-8b64-4f83-bd63-068c8236f4b5,Vredens barn,2
-514,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderes Nachtlied,22
-515,32,part-2af05336-e93e-4efd-aec0-a5f83ecd90cb,Kanteletar. Pastoraali,2
-516,241,part-c9310f5e-5a39-4f48-8b97-43979157295e,"Kappaleet, piano, op4. Nro 1, Etude",2
-517,71,part-dd98dc85-f55a-47d4-a7c9-afebf64c476e,"Kappaleet, piano, op4. Nro 2, Valse",2
-518,163,part-b3c9b5b7-63d5-48c6-9ef2-57dafdd8d937,"Kappaleet, piano, op4. Nro 3, Allegro con brio",2
-519,41,part-742c0767-982e-4894-bae4-58524897ab6f,Kuopio-kantaatti. Peltomiehen syyslaulu,4
-520,74,part-8b33fe4f-ba09-4be9-a90b-4af8ede2e50a,Laulu tulipunaisesta kukasta. Joki,2
-521,213,part-bdd01bfc-9ac1-4bee-93a0-0a547f816ad5,Laulu tulipunaisesta kukasta. Koskenlasku,2
-522,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,"Luvattu maa (sarja). Nro 1, Johdanto",6
-523,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,Israelin orjuus,6
-524,215,part-7f14426c-2f67-4c51-acad-bd1d1a62d538,"Luvattu maa, sarja. Nro 1, Johdanto",6
-525,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,"Luvattu maa (sarja). Nro 2, Elitzeban valitus",6
-526,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,Elitzebas klagan,6
-527,114,part-9c49a2f8-fb06-4e94-9ec3-11f01c97b913,"Luvattu maa, sarja. Nro 2, Elitzeban valitus",6
-528,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,"Luvattu maa (sarja). Nro 3, Tanssit",6
-529,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,Ballet I,6
-530,36,part-02210443-a332-45af-b8ca-72c0e7663b4c,"Luvattu maa, sarja. Nro 3, Tanssit",6
-531,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Maan sävel. Mieron pojat korvessa,10
-532,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-533,85,part-6d273b53-0c94-400c-ae82-f22d0ad4fc57,Miranda. Najadens sång,2
-534,34,part-a8ab1bfd-e1d3-40b4-b303-9296aa76d4fe,Miranda. Nymf och trolldans,2
-535,219,part-976d6571-95c3-48ec-9819-b072ee9da360,Normaalilyseon 50-vuotisriemujuhlakantaatti. Ja kesä oli parhaillaan,2
-536,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-537,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat. kamariork. Nro 1, Preludi",80
-538,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri. Nro 1, Preludi",80
-539,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat, orkesteri (1895). Nro 2, Andante",6
-540,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat. kamariork. Nro 2, Andante",6
-541,50,part-06adaeb6-312e-4e65-9104-97dfa131f921,"Sarjat, orkesteri. Nro 2, Andante",6
-542,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat, orkesteri (1895). Nro 3, Scherzo",6
-543,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat. kamariork. Nro 3, Scherzo",6
-544,43,part-f1844b56-99d4-458c-8afe-f53124ec92a9,"Sarjat, orkesteri. Nro 3, Scherzo",6
-545,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat, orkesteri (1895). Nro 4, Adagio",6
-546,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat. kamariork. Nro 4, Adagio",6
-547,105,part-e9aff072-210a-4119-9edc-86310df4b488,"Sarjat, orkesteri. Nro 4, Adagio",6
-548,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat, orkesteri (1895). Nro 5, Allegro",6
-549,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat. kamariork. Nro 5, Allegro",6
-550,142,part-6379ed2c-54cc-46d2-a8a3-48c62ea4ea4a,"Sarjat, orkesteri. Nro 5, Allegro",6
-551,100,arrangement-8dbedfa7-d880-4897-a059-a6c3532fe827,"Berceuset, kamariork., ruotsi (Slumra, sov i ro, mitt hjärtebarn)",2
-552,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, orkesteri; sovitettu, piano",26
-553,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, kamariork.; sov., piano",26
-554,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, orkesteri; sovitettu, sello, piano",24
-555,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, kamariork.; sov., sello, piano",24
-556,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-557,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano",72
-558,5,arrangement-9896ca43-064a-4653-972e-eb22d03b1c3e,"Gute Ruhe; sovitettu, sekakuoro",4
-559,5,arrangement-9896ca43-064a-4653-972e-eb22d03b1c3e,"Gute Ruhe; sov., sekakuoro",4
-560,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Hyljätyn valitus; sovitettu, puhallinyhtye",18
-561,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain,18
-562,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Hyljätyn valitus; sov., puhallinyhtye",18
-563,160,arrangement-931e1bba-8a19-4efb-9e2d-1de6b63a2507,"Kanteletar. Pastoraali; sov., kamariork.",2
-564,103,arrangement-79a3fa9d-8544-4afd-bc82-d78d8a57b6ba,"Lapsuuden ajoilta; sovitettu, pianot (2)",4
-565,103,arrangement-79a3fa9d-8544-4afd-bc82-d78d8a57b6ba,"Lapsuuden ajoilta; sov., pianot (2)",4
-566,128,arrangement-6e1562e8-00bb-4738-9d09-9fe23f8d0cac,"På havet; sovitettu, lauluääni, piano",4
-567,128,arrangement-6e1562e8-00bb-4738-9d09-9fe23f8d0cac,"På havet; sov., lauluääni, piano",4
-568,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano",24
-569,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat. kamariork. Nro 1, Preludi; sov., piano",24
-570,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri. Nro 1, Preludi; sovitettu, piano",24
-571,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-572,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat. kamariork. Nro 1, Preludi; sov., piano, 4-kät.",16
-573,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri. Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-574,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,"Sunnuntaina; sovitettu, lauluääni, sekakuoro",6
-575,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,Sunnuntai,6
-576,87,arrangement-5fb47551-1907-4c6e-a04f-148d220c7959,"Sunnuntaina; sov., lauluääni, sekakuoro",6
-577,29,arrangement-da8c9227-e510-40f2-9384-050dd0e7527e,"Sunnuntaina; sovitettu, orkesteri",4
-578,29,arrangement-da8c9227-e510-40f2-9384-050dd0e7527e,"Sunnuntaina; sov., ork.",4
-579,9,arrangement-3ddb074e-2c42-4d9a-841e-747f35c18d4a,"Virran rannalla; sovitettu, orkesteri",4
-580,9,arrangement-3ddb074e-2c42-4d9a-841e-747f35c18d4a,"Virran rannalla; sov., ork.",4
-581,115,translation-d5162baf-d8a0-454a-a9fb-729ade5a9c30,"Aallon kehtolaulu, ruotsi (Vågens vaggsång)",2
-582,175,translation-2eabcf50-ac20-4856-b6c1-7f5717b1486f,"Aallon kehtolaulu, saksa (Der Welle Wiegenlied)",2
-583,192,translation-a7bc8217-884b-4450-b376-c6d39616a67b,"Anni, saksa",2
-584,61,translation-920b3e9c-376e-4b06-9fdf-1268790921d1,"Armasta odottaessa, ruotsi (Väntande för kärlingen)",2
-585,221,translation-55bd7a5d-8981-4e32-9c3d-696576f2cbc2,"Berceuset, kamariork., saksa (Schlafe, schlafe holdes Kindchen mein)",2
-586,37,translation-61dd4be8-6cd0-42e5-ada4-1b7180be39e2,"Berceuset, kamariork., suomi (Hopeinen laulu)",2
-587,214,translation-0846be0c-a14a-4de7-b01b-c57ce41cff85,"Berceuset, kamariork., suomi (Uinu, uinu, lapsi armainen)",2
-588,47,translation-cec04f2a-57df-4b17-8c63-bdd92a51c88c,"En drömmares sång till livet, saksa (Ein Trümers Sang ans Lieben)",2
-589,30,translation-5d1da356-e6a1-483e-abdd-2df4cd734c20,"En drömmares sång till livet, suomi (Uneksijan laulu elämälle)",2
-590,223,translation-d071b36d-24bf-42f8-b759-15532b3de73f,"Du, suomi (Sinä)",2
-591,147,translation-b30cfe6b-5c17-4877-9a3a-1786d4406f5d,"Fågeln, saksa (Der Vogel)",2
-592,240,translation-a4d6593a-e4fc-4c04-b2ba-3cb184b01a9e,"Fåglarna, suomi (Linnut)",2
-593,60,translation-9c8a1224-045d-46fb-a852-23922afdd21e,"Den flydda, islanti (Hin horfna)",2
-594,27,translation-a866420c-1494-4f65-b030-3ce45d682b78,"Den flydda, suomi (Mennyt)",2
-595,239,translation-85a0230b-4f3b-4196-aa59-fab35f6555cd,"I solnedgången, saksa (Im Sonnenuntergang)",2
-596,227,translation-b4df7c10-566e-4604-8e3f-2ffb5897b0f6,"Kanteleelle, ruotsi",2
-597,89,translation-fd2310f9-734d-4427-b050-914a74546167,"Kehtolaulu (Hiljaa, hiljaa! ilta on), saksa (Wiegenlied)",2
-598,155,translation-f7e0170a-f86a-4af6-b6bc-3818d6eabcbf,"Kehtolaulu (Liekku liiku, kätkyt kiiku), ruotsi (Vaggsång)",4
-599,155,translation-f7e0170a-f86a-4af6-b6bc-3818d6eabcbf,"Vaggsång (Gunga sakta, vagga akta)",4
-600,22,translation-59132757-b827-4fa8-8b87-cc0cfe6f9a0b,"Laula, laula, ruotsi (Sjung, sjung)",2
-601,133,translation-c622963c-08d2-47c6-83c8-887f8fe457d5,"Leivo, ruotsi (Lärkan)",2
-602,108,translation-46ebbd06-bc68-4771-b42e-25920da25b70,"Lina, saksa (Line)",2
-603,167,translation-2d84f0ba-010f-4770-894d-325dfcf5d085,"Lina, suomi (Liina)",2
-604,186,translation-c926e375-f243-4c52-9475-2f230d598d55,"Metsäkyyhkyset, ruotsi (Skogsduvor)",2
-605,23,translation-4edec4ff-f425-46d4-b3f9-9e54a91e66f0,"Milloin muistelet minua?, ruotsi (Säg, när mines du mig)",2
-606,59,translation-d4a7e756-df48-4e22-89ae-869329bb9dfc,"Milloin muistelet minua?, saksa (Sag' gedenkest du meiner)",2
-607,51,translation-eab3bbf9-a5e7-4df3-97f6-0741071789de,"När alla klockor klämtat tolf, saksa (Wenn alle Uhren zwölf geschlagen)",2
-608,19,translation-4aa096ad-6fce-4666-912a-669893fcefad,"Nocturne, saksa",2
-609,104,translation-cf5b954a-6e59-4091-bd68-fd5672a63926,"Onnelliset, ruotsi (De lyckliga)",2
-610,149,translation-f3f89aea-7a34-4534-b1be-2c59cbe65e7f,"Pääskylle, ruotsi (Till en svala)",2
-611,75,translation-b475fd91-c835-4e8d-9100-adbd8e2d0daa,"Pois meni merehen päivä, ruotsi (Han sjönk i havets sköte)",2
-612,83,translation-8e830682-b0ca-49b1-857b-769955d4dac6,"Puhjetessa kukka puhtahin, saksa (Blumen sind am schönsten erblüht)",2
-613,79,translation-f6187743-9c00-4e53-a52e-231f5041587d,"Silloinpa kesä minulla, ruotsi (Då stundar vårens tid för mig)",2
-614,174,translation-19f8ff45-0686-44e5-a937-f924865799f9,"Sirkka, islanti (Einu sinni svanur fagur)",2
-615,146,translation-7d52afd0-f2e7-443d-a747-1ec43cee84fa,"Sirkka, ruotsi (Syrsan)",2
-616,193,translation-3fbd10ae-1068-48ab-9ce0-ca181bcd6a03,"Skymning (När en gång), saksa (Dämmerung)",2
-617,58,translation-1d6be58b-16c2-4151-9774-77d786416fac,"Skymning (När en gång), suomi (Hämärä)",2
-618,194,translation-0768d575-df76-4a57-b7de-ed065229a9e8,"Solsken, saksa (Sonnenschein)",2
-619,129,translation-a8f956e6-f63c-43eb-b98f-84e5368efce7,"Sondbyn laulu, ruotsi",4
-620,129,translation-a8f956e6-f63c-43eb-b98f-84e5368efce7,Sondbysången,4
-621,117,translation-b7c3b0c2-346e-4de1-8dbf-426ea6ec1c8d,"En spel- och dansvisa, saksa",2
-622,243,translation-606a8907-b0fb-47eb-a6d2-5d7e7f1f3ba8,"Sunnuntaina, ruotsi (Söndag)",4
-623,243,translation-606a8907-b0fb-47eb-a6d2-5d7e7f1f3ba8,Söndag,4
-624,73,translation-93fd9cb9-de03-4968-8a12-af77ddb966d8,"Sunnuntaina, saksa (Sonntag)",4
-625,73,translation-93fd9cb9-de03-4968-8a12-af77ddb966d8,Sonntag,4
-626,233,translation-c13ff05b-a0ca-487f-9aec-f9adc783b376,"Suvirannalla, ruotsi (Sommarnatt på stranden)",4
-627,233,translation-c13ff05b-a0ca-487f-9aec-f9adc783b376,Sommarnatt på stranden,4
-628,82,translation-9ddf279b-26da-44b4-a5c0-28ac78663bc3,"Titania, saksa",2
-629,130,translation-57b45b9a-3c2d-4e3b-9cde-5b6d1590b2a3,"Titania, suomi",2
-630,4,translation-66eb27a5-6caa-4567-8a00-9dc5c28b30d5,"Toivoni, ruotsi (Önskan)",4
-631,4,translation-66eb27a5-6caa-4567-8a00-9dc5c28b30d5,Önskan,4
-632,204,translation-dd8a9b3c-7378-4b8f-8685-dd2aa7509c49,"Unelma, ruotsi (Dröm)",4
-633,204,translation-dd8a9b3c-7378-4b8f-8685-dd2aa7509c49,Dröm,4
-634,225,translation-94cab186-b58e-4ee3-bd2b-a824eb23df4f,"Vågsång, saksa",2
-635,202,translation-d86830fd-558f-40f2-b6ca-201ed943e293,"Den vakande modern, saksa (Die wachende Mutter)",4
-636,202,translation-d86830fd-558f-40f2-b6ca-201ed943e293,Die wachende Mutter,4
-637,176,translation-032bbbae-01bf-4eac-9e9d-a9f32b785b6e,"Vårdroppen, saksa (Eine Träne)",4
-638,176,translation-032bbbae-01bf-4eac-9e9d-a9f32b785b6e,Eine Träne,4
-639,48,translation-877eb77f-bb9a-4c7b-b138-f239b52d26a5,"Vårdroppen, suomi (Kevätpisara)",4
-640,48,translation-877eb77f-bb9a-4c7b-b138-f239b52d26a5,Kevätpisara,4
-641,55,translation-8474cd93-6d25-46a4-b352-c4129d628131,"Varpunen, ruotsi (Sparven)",4
-642,55,translation-8474cd93-6d25-46a4-b352-c4129d628131,Sparven,4
-643,12,translation-c4d7d081-22e8-4aa5-a13f-453c493c81c7,"Viel' ois virttä tieossani, ruotsi (Än en visa vill jag sjunga)",2
-644,90,translation-5b1ef635-97eb-40f9-b4ba-55feed96640c,"Vill du komma med mig?, suomi (Tule kanssain)",4
-645,90,translation-5b1ef635-97eb-40f9-b4ba-55feed96640c,Tule kanssain,4
-646,123,translation-739a5b82-c8c6-41df-8168-e12b22f56f92,"Wanderes Nachtlied, suomi (Kulkijan valitus)",4
-647,123,translation-739a5b82-c8c6-41df-8168-e12b22f56f92,Kulkijan valitus,4
-648,124,translation-25112d71-72e1-40aa-9df9-3f5652248757,"Wanderes Nachtlied, suomi (Vaeltajan yölaulu)",4
-649,124,translation-25112d71-72e1-40aa-9df9-3f5652248757,Vaeltajan yölaulu,4
-650,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium : piano 4 ms,16
-651,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium,16
-652,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse,24
-653,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, viulu, piano; sovitettu sello, piano",24
-654,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse : piano 2/ms,26
-655,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-656,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano; sovitettu, piano",26
-657,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : viulu ja piano,72
-658,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-659,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-660,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU,46
-661,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"[Berceuset, viulu, piano ] ; Berceuse : violino & piano",72
-662,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"[Berceuset, viulu, piano ]",72
-663,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,f.m. 05103-7,72
-664,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,SUNNUNTAINA,30
-665,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : violine & piano,72
-666,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-667,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Lippulaulu,6
-668,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-669,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse : viulu, piano = Kehtolaulu",72
-670,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-671,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., soitinyhtye] : for small orchestra : score = Berceuse",88
-672,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., soitinyhtye]",88
-673,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-674,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,Drei Klavierstücke op. 4,12
-675,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse / Piano 2/ms,26
-676,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-677,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano; sov., piano",26
-678,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset,viulu,piano ; Järnefelt",72
-679,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-680,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel : kantaatti Suomen työväen laulu- ja soittojuhliin v. 1935,12
-681,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
-682,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,KORSHOLMA,26
-683,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse : violino, piano",72
-684,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-685,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-686,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma:sinfoninen runo           +12ääntä,26
-687,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima : osa kantaatista Maan sävel,20
-688,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-689,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-690,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot : turun yliopiston...kantaatti,12
-691,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-692,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Titania,8
-693,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-694,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
-695,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : för liten orkester : för piano 2 hdg,24
-696,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-697,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Preludit, ork. (1900); sov., piano",24
-698,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
-699,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
-700,67,work-66128cc9-07ad-4509-b9c0-5bab19828b2e,Am stillen Dorfe erhebt sich,4
-701,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-702,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-703,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
-704,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-705,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-706,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
-707,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-708,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-709,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa)",18
-710,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-711,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-712,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel-och dansvisa,22
-713,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula!",8
-714,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,"Tre sånger vid piano. No. 3, Titania",8
-715,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Tre sånger vid piano,8
-716,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtar tolf,20
-717,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,BERCEUSE : VIOLINO & PIANO,72
-718,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"BERCEUSET, VIULU, PIANO (1894)",72
-719,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse, viulu, piano",72
-720,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,KOTIMAISIA LAULUSÄVELLYKSIÄ 2 : KANTELEELLE,16
-721,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,KOTIMAISIA LAULUSÄVELLYKSIÄ 2,16
-722,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : violino & piano,72
-723,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-724,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset,viulu,piano ; Sov.,soitinyhtye",88
-725,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset,viulu,piano",88
-726,11,work-57072835-4b19-4769-b899-15a331c26ade,Tanssin kulku,4
-727,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,"Tre sånger vid piano. No. 2, I solnedgången",18
-728,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano,18
-729,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano 1894",72
-730,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima : Osa kantaatista Maan sävel,20
-731,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-732,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-733,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuse, piano ; Järnefelt",26
-734,195,part-8c601787-977c-475d-a6eb-694442c32adf,PRAELUDIUM,80
-735,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång = Der Welle Wiegenlied,46
-736,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-737,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Der Welle Wiegenlied,46
-738,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången = Im Sonnenuntergang,18
-739,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
-740,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu = Vaggsång,20
-741,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-742,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (Liekku liiku) (1938),20
-743,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo = Lärkan,14
-744,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-745,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,"Milloin muistelet minua? = Säg, när minnes du mig? = Sag', gedenkest Du meiner?",12
-746,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
-747,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Wenn alle Uhren zwölf geschlagen,20
-748,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-749,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina = Lina = Line,26
-750,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina,26
-751,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-752,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu = Wiegenlied,18
-753,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-754,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa) (1902)",18
-755,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Sinä = Du,22
-756,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Sinä,22
-757,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-758,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken = Sonnenschein,16
-759,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
-760,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni = Önskan,8
-761,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
-762,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina = Söndag,30
-763,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-764,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle = En drömmares sång till livet = Eines Träumers Sang an das Leben,32
-765,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle,32
-766,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-767,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Eines Träumers Sang an das Leben,32
-768,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma = Dröm,8
-769,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
-770,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla = Sommarnatt på stranden,26
-771,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-772,65,work-3551edc1-c791-4d0c-8346-aecb151f0eb0,Onnelliset,4
-773,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani = Än en visa vill jag sjunga,24
-774,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-775,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
-776,216,work-ef6b6479-84a4-44b1-9e5e-d392058ba559,Jes siunatkoon,4
-777,70,work-ed9f2734-7fbc-4ab7-a619-b5bcc9f43c55,Matkalla,4
-778,144,work-0aac17ef-10c6-4946-a907-b62ee2e2e249,Laulajan koti,4
-779,222,work-9352bb9e-fd48-40bf-ba78-c84fed003ac8,Monimorsiamellinen,4
-780,199,work-32980192-a5a4-40c9-87ef-51d8145c1f80,Nyt valitkaa,4
-781,7,work-21f010fb-0c3c-48ce-897f-081f185d00f0,Paimenten ilo,4
-782,134,work-aa713513-5bd7-4462-80c6-f151dbe412a6,Paimenen pyhä,4
-783,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-784,41,part-742c0767-982e-4894-bae4-58524897ab6f,Peltomiehen syyslaulu,4
-785,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-786,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : for small orchestra : Score,88
-787,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-788,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, soitinyhtye",88
-789,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag = Sunnuntaina = Söndag,30
-790,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag,30
-791,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-792,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-793,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-794,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Vågens vaggsång = Der Welle Wiegenlied,46
-795,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Vågens vaggsång,46
-796,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-797,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Wenn alle Uhren zwölf gesachlagen,20
-798,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-799,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,AAMULLA VARHAIN : VASKISEITSIKOLLE,18
-800,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,AAMULLA VARHAIN,18
-801,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,VASKISEITSIKOLLE,18
-802,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani = Än en visa vill jag sjunga : Kanteletar,24
-803,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-804,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina = Lina,26
-805,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina,26
-806,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-807,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,"Milloin muistelet minua = Säg, när minnes du mig",12
-808,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua,12
-809,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag = Sunnuntaina,30
-810,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,"Sunnuntaina / Järnefelt, Armas",30
-811,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle : för sång och piano = Sommarnatt på stranden,26
-812,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-813,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Tre sånger vid piano : Nocturne = Drei Lieder mit Piano,12
-814,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Tre sånger vid piano,12
-815,6,work-82861f89-d34a-4e02-8257-e58bed94efec,"Laulut (1910), lauluääni, piano. Nocturne",12
-816,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
-817,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Kylväjän laulu maalle,12
-818,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Heinäväen laulu,12
-819,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Korpivaellus,10
-820,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Köyhän äidin kehtolaulu,10
-821,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Mieron pojat korvessa,10
-822,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Metsien hengen laulu,10
-823,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-824,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Lauttamiesten laulu,20
-825,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maahisten ja vetehisten hymni,20
-826,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Der Welle Wiegenlied,46
-827,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-828,49,work-4d398dd6-203a-4ae5-ad42-fd75531c178b,Ständchen,4
-829,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma : sinfooninen runo = Korsholm : sinfonische Dichtung,26
-830,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-831,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
-832,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,"Kolme laulua = Tre sånger. N:o 1., Varpunen = Sparven",14
-833,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua,14
-834,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
-835,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
-836,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-837,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet = Uneksijan laulu elämälle = Eines Träumers Sang an das Leben,32
-838,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-839,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Kallan Kuoron lippulaulu,6
-840,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta -kantaatti,10
-841,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet = Uneksijan laulu elämälle,32
-842,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-843,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse : Sello ja piano = violoncello o. piano,24
-844,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse,24
-845,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, orkesteri; sovitettu, sello, piano",24
-846,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,"""Korsholm"", sinfonische Dichtung für grosses Orchester",26
-847,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse [Nuottijulkaisu],72
-848,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-849,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Kehtolaulu,72
-850,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-851,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, kamariork. (1900)",80
-852,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm : sinfonische Dichtung für grosses Orchester = sinfooninen runo suurelle orkesterille = Korsholma,26
-853,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
-854,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-855,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel och dansvisa = Eine Spiel- und Tanzweise,22
-856,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel och dansvisa,22
-857,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-858,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua : N:o 1. Varpunen = Sparven,14
-859,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua,14
-860,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
-861,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano : I solnedgången = Drei Gesänge mit piano : Im Sonnenuntergang,18
-862,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano,18
-863,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,"Laulut, lauluääni, piano. I solnedgången",18
-864,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,"Kolme laulua = Tre sånger. No 3, Leivo = Lärkan",14
-865,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Kolme laulua,14
-866,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-867,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen : sång för en röst vid piano = Eine Träne : Lied für eine Singstimme mit piano,12
-868,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-869,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle = Eines träumers Sang an das Leben,32
-870,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle,32
-871,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmarens sång till livet,32
-872,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula",8
-873,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,Laula laula,8
-874,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : för sång och piano = Sinä,22
-875,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-876,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du (1933),22
-877,119,work-71e788e5-22e1-47ed-8269-ebc2687bbefc,Den vakande modern,4
-878,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu : laululle : för sång = Vaggsång,20
-879,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-880,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (1938),20
-881,170,work-1811deb0-384c-4e8a-ae0b-f0fd9b5b1460,Köyhä,4
-882,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina = Liina = Line,26
-883,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-884,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka = Syrsan,18
-885,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-886,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse for small orchestra,88
-887,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork. / Järnefelt, Armas",88
-888,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : Violine & piano : Violoncello & piano,72
-889,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-890,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano / Järnefelt, Armas",72
-891,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium : orchestra score,80
-892,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-893,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-894,195,part-8c601787-977c-475d-a6eb-694442c32adf,Kalmus orchestra scores,80
-895,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : för sång och piano = Sinä : laululle ja pianolle,22
-896,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-897,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina = Söndag = Sonntag,30
-898,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-899,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle = Sommarnatt på stranden : för sång och piano,26
-900,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-901,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuoksella,6
-902,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuokselle,6
-903,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-904,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : for violin (or violoncello) and piano,72
-905,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-906,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano / Järnefelt, Armas",72
-907,33,work-70c55a95-92aa-47d6-8199-4472eab01ea5,Päivän poika,4
-908,136,work-98350654-cacc-4750-9c28-06eeead0e5cb,Langsam; Symphonische Fantasie für Orchester,4
-909,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle,26
-910,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-911,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,"Suvirannalla / Järnefelt, Armas",26
-912,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta : kantaatti,10
-913,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta,10
-914,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,"Kolme laulua = Tre sånger. N:o 2., Pääskylle = Till en svala",12
-915,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Kolme laulua,12
-916,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
-917,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,"""Die Drei"" für Baryton und Orchester",8
-918,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,"""Viel' ois virttä tieossani"" = ""Än en visa vill jag sjunga""",24
-919,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,"""Viel' ois virttä tieossani""",24
-920,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-921,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,En visa,8
-922,81,work-307d996a-9433-48b8-a96e-220097cbf227,Heimathklang,6
-923,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani : (Kanteletar),24
-924,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-925,210,work-6cf523ef-d0f0-44a7-99c7-8bea24281558,Tohmajärven seurakunnan kirkonkellot (1925),4
-926,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse : piano ms,26
-927,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-928,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano (1894); sovitettu, piano",26
-929,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Kehtolaulu,26
-930,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : piano,24
-931,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-932,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri Nro 1, Preludi; sovitettu, piano",24
-933,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium : für kleines Orchester,80
-934,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-935,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri Nro 1, Preludi",80
-936,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium : Piano 4 ms,16
-937,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium,16
-938,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-939,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu = Vaggsång : laululle,20
-940,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-941,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (Liekku liiku),20
-942,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin = Blumen sind am schönsten wenn erblüht,6
-943,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin,6
-944,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze : Violine mit Begleitung des Pianoforte,18
-945,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
-946,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano (1891)",18
-947,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Festouverture = Juhla-alkusoitto,8
-948,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Festouverture,8
-949,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Juhla-alkusoitto,8
-950,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till lifvet = Eines Träumers sang an das Leben : sång för en röst vid piano,32
-951,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till lifvet,32
-952,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-953,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina = Liina,26
-954,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-955,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,"Laulut (1910), lauluääni, piano. Lina",26
-956,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : för liten orkester,24
-957,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-958,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano",24
-959,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla = Sommarnatt på stranden : laululle ja pianolle,26
-960,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-961,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze : for Violin and Piano (1891),18
-962,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
-963,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano (1891)",18
-964,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze für Violine mit Begleitung des Pianoforte,18
-965,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle : laululle ja pianolle,16
-966,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-967,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludium,80
-968,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-969,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot : yksinlaulu pianosäestyksin,12
-970,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot,12
-971,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Als alle Uhren schlugen zwölf,20
-972,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-973,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,Als alle Uhren schlugen zwölf,20
-974,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning : sång för en röst och piano,18
-975,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-976,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
-977,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : for small orchestra,88
-978,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-979,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, soitinyhtye",88
-980,159,work-4e9ca920-d421-4308-bac9-69cc52f27178,Fågeln,4
-981,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Tre sånger vid piano : Vågsång = Wogensang,12
-982,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Tre sånger vid piano,12
-983,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,"Laulut (1910), lauluääni, piano. Vågsång",12
-984,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle = Till en svala,12
-985,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
-986,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,Die Drei,8
-987,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,"Die Drei; sovitettu, lauluääni, piano",8
-988,195,part-8c601787-977c-475d-a6eb-694442c32adf,Präludium,80
-989,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-990,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu : (Hiljaa, hiljaa ilta on...)",18
-991,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-992,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa! ilta on)",18
-993,191,work-21ed6ea6-95f6-4573-962a-e2e72c085783,Preludio funèbre,4
-994,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Festklanger,6
-995,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Juhlakaikuja,6
-996,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse för liten orkester,88
-997,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-998,195,part-8c601787-977c-475d-a6eb-694442c32adf,Prelude,80
-999,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit (1900), orkesteri",80
-1000,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot = Fosterlandets anlete, kantat",12
-1001,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot,12
-1002,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot, kantaatti",12
-1003,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique = (Lyrical overture),18
-1004,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-1005,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
-1006,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit,80
-1007,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1008,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset,",24
-1009,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, viulu, piano; sovitettu, sello, piano",24
-1010,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
-1011,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain : vaskiseitsikolle = for brass septet,18
-1012,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain,18
-1013,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Aamulla varhain; sovitettu, vaskipuhaltimet.",18
-1014,195,part-8c601787-977c-475d-a6eb-694442c32adf,Prelude for orchestra,80
-1015,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1016,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
-1017,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,"Häämarssi, urut",16
-1018,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografikunnan marssi,10
-1019,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi : pienelle orkesterille,80
-1020,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1021,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1022,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto = Wedding music,16
-1023,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto,16
-1024,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
-1025,88,work-1c09181e-e664-4c59-984e-b3f8b9e5bb3f,Satu,4
-1026,232,work-66b8ab3c-63e1-43df-8fcf-ec47bb838c5c,Virran rannalla,4
-1027,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-1028,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-1029,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta = Solsken = Sonnenschein = Sunshine,16
-1030,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta,16
-1031,116,work-77bb83dd-51f3-4406-bf98-887544c9872f,Suottako Suomi luottaa Luojahansa,4
-1032,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaisteita,16
-1033,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta,16
-1034,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Kolybelńaâ,72
-1035,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-1036,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi = Praeludium,80
-1037,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1038,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, ork",80
-1039,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1040,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi = Prelude,80
-1041,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1042,190,work-4ba9b2bd-6e04-440a-b848-d8eabfe72e79,Hyljätyn valitus,4
-1043,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle = Till kantele,16
-1044,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-1045,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografimarssi,10
-1046,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludi, ork",80
-1047,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit : ork,80
-1048,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit,80
-1049,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi orkesterille,80
-1050,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset : viulu, piano, sov., ork",88
-1051,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuset,88
-1052,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, sello, piano",24
-1053,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl : yksinlaulu,6
-1054,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl,6
-1055,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,3 klavierstücke op4 (1895?),12
-1056,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
-1057,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuse : pienelle orkesterille myös stereonauhalla +lps 25.971:a1,2,3, 4,5 : 1. Raita",88
-1058,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1059,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1060,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,3 Klavierstücke op.4,12
-1061,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
-1062,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa : yksinlaulu,22
-1063,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-1064,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvis,22
-1065,145,work-cf009960-fcbf-4679-8be0-cfe1432232eb,Silloinpa kesä minulla,4
-1066,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : Kehtolaulu : versio viululle ja pianolle,72
-1067,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1068,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-1069,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång = Der Velle Wiegenlied,46
-1070,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1071,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1072,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU. 1.,46
-1073,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU,46
-1074,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1075,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggvisa = Der Welle Wiegenlied,46
-1076,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1077,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång,46
-1078,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1079,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Der Welle Wiegenlied,46
-1080,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork",88
-1081,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1082,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi orkesterill.,80
-1083,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Kuin painuva päivä,8
-1084,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
-1085,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografiamarssi,10
-1086,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyric overture,18
-1087,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-1088,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., ork.]",88
-1089,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov. ork",88
-1090,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, Viulu, piano",88
-1091,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork.",88
-1092,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, orkesteri",88
-1093,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuce,88
-1094,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork",88
-1095,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1096,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma : symphonic poem = Korsholm,26
-1097,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-1098,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1099,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig : tullos kanssain : mieskuorolle ja bari- tonille : tks: Josef Julius wecksell,16
-1100,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-1101,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
-1102,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen : Kevätpisara yksinlaulu,12
-1103,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-1104,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år : Kolmetoistavuotias yksinlaulu,6
-1105,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år,6
-1106,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : Sinä yksinlaulu,22
-1107,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-1108,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,"Spel- och dansvisa, En : Pelimannin tanssilaulu yksinlaulu",22
-1109,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,"Spel- och dansvisa, En",22
-1110,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår : Olet aurinko, olet kevät yksinlaulu",6
-1111,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår",6
-1112,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning : Hämärä (Hvad detta svala dunkel) yksinlaulu,6
-1113,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning,6
-1114,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne : yksinlaulu,12
-1115,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne,12
-1116,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång : Aaltojen laulu yksinlaulu,12
-1117,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång,12
-1118,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen : yksinlaulu,6
-1119,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen,6
-1120,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,"Visa, En : Laulu (Det faller ett guldnadt löf på min väg ) yksinlaulu",8
-1121,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,"Visa, En",8
-1122,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning : yksinlaulu : tks: alceste,18
-1123,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-1124,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse(kehtolaulu),88
-1125,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, Viulu, piano; Sov, ork",88
-1126,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamriork",88
-1127,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isämaan kasvot,12
-1128,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,"Isänmaan kasvot; sovitettu, lauluääni, piano",12
-1129,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu ; Berceuse,88
-1130,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1131,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork",88
-1132,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta = Den nya och gamla vännen,8
-1133,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta,8
-1134,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Den nya och gamla vännen,8
-1135,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning = Hämärä= Dämmerung,18
-1136,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-1137,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
-1138,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot = Tidens vågor,12
-1139,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot,12
-1140,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka : mieskuorolle a cappella kokoelmasta Seitsemän miesäänistä laulua,18
-1141,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-1142,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : Kehtolaulu : pienelle orkesterille,88
-1143,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1144,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1145,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen,16
-1146,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1147,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi (Preludium),80
-1148,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1149,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka = Die grille = The grasshopper,18
-1150,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-1151,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Grille,18
-1152,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Grasshopper,18
-1153,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Der du von dem Himmel bist,22
-1154,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1155,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Kulkijan huokaus = Vaeltajan yölaulu,22
-1156,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1157,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Bercueset,24
-1158,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Bercueset, viulu, piano; sovitettu, sello, piano",24
-1159,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Kulkijan huokaus,22
-1160,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1161,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig = Tullos kanssain,16
-1162,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-1163,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Rajamailla,12
-1164,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,"Ajan aallot, sekakuoro",12
-1165,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu : pienelle orkesterille,88
-1166,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1167,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1168,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Vandrarens nattsång,22
-1169,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1170,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Der du von dem Himmel bist,22
-1171,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä = Solen i vägen sig sänkte,16
-1172,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1173,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä : nr 4 ur Seitsemän miesäänistä laulua,16
-1174,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1175,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium : piano 4 ms,16
-1176,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium,16
-1177,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse,24
-1178,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, viulu, piano; sovitettu sello, piano",24
-1179,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse : piano 2/ms,26
-1180,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-1181,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano; sovitettu, piano",26
-1182,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : viulu ja piano,72
-1183,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1184,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-1185,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU,46
-1186,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"[Berceuset, viulu, piano ] ; Berceuse : violino & piano",72
-1187,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"[Berceuset, viulu, piano ]",72
-1188,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,f.m. 05103-7,72
-1189,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,SUNNUNTAINA,30
-1190,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : violine & piano,72
-1191,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1192,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Lippulaulu,6
-1193,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-1194,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse : viulu, piano = Kehtolaulu",72
-1195,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1196,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., soitinyhtye] : for small orchestra : score = Berceuse",88
-1197,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., soitinyhtye]",88
-1198,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1199,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,Drei Klavierstücke op. 4,12
-1200,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse / Piano 2/ms,26
-1201,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-1202,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano; sov., piano",26
-1203,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset,viulu,piano ; Järnefelt",72
-1204,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-1205,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel : kantaatti Suomen työväen laulu- ja soittojuhliin v. 1935,12
-1206,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
-1207,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,KORSHOLMA,26
-1208,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse : violino, piano",72
-1209,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1210,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-1211,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma:sinfoninen runo           +12ääntä,26
-1212,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima : osa kantaatista Maan sävel,20
-1213,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-1214,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-1215,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot : turun yliopiston...kantaatti,12
-1216,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-1217,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Titania,8
-1218,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-1219,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
-1220,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : för liten orkester : för piano 2 hdg,24
-1221,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-1222,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Preludit, ork. (1900); sov., piano",24
-1223,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
-1224,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
-1225,67,work-66128cc9-07ad-4509-b9c0-5bab19828b2e,Am stillen Dorfe erhebt sich,4
-1226,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-1227,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1228,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
-1229,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-1230,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-1231,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
-1232,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1233,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-1234,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa)",18
-1235,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-1236,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-1237,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel-och dansvisa,22
-1238,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula!",8
-1239,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,"Tre sånger vid piano. No. 3, Titania",8
-1240,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Tre sånger vid piano,8
-1241,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtar tolf,20
-1242,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,BERCEUSE : VIOLINO & PIANO,72
-1243,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"BERCEUSET, VIULU, PIANO (1894)",72
-1244,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuse, viulu, piano",72
-1245,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,KOTIMAISIA LAULUSÄVELLYKSIÄ 2 : KANTELEELLE,16
-1246,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,KOTIMAISIA LAULUSÄVELLYKSIÄ 2,16
-1247,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : violino & piano,72
-1248,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1249,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset,viulu,piano ; Sov.,soitinyhtye",88
-1250,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset,viulu,piano",88
-1251,11,work-57072835-4b19-4769-b899-15a331c26ade,Tanssin kulku,4
-1252,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,"Tre sånger vid piano. No. 2, I solnedgången",18
-1253,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano,18
-1254,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano 1894",72
-1255,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima : Osa kantaatista Maan sävel,20
-1256,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maan sävel. Yhteisvoima,20
-1257,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-1258,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuse, piano ; Järnefelt",26
-1259,195,part-8c601787-977c-475d-a6eb-694442c32adf,PRAELUDIUM,80
-1260,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång = Der Welle Wiegenlied,46
-1261,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1262,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Der Welle Wiegenlied,46
-1263,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången = Im Sonnenuntergang,18
-1264,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
-1265,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu = Vaggsång,20
-1266,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-1267,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (Liekku liiku) (1938),20
-1268,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo = Lärkan,14
-1269,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-1270,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,"Milloin muistelet minua? = Säg, när minnes du mig? = Sag', gedenkest Du meiner?",12
-1271,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
-1272,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Wenn alle Uhren zwölf geschlagen,20
-1273,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-1274,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina = Lina = Line,26
-1275,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina,26
-1276,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-1277,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu = Wiegenlied,18
-1278,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-1279,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa) (1902)",18
-1280,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Sinä = Du,22
-1281,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Sinä,22
-1282,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-1283,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken = Sonnenschein,16
-1284,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
-1285,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni = Önskan,8
-1286,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
-1287,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina = Söndag,30
-1288,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-1289,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle = En drömmares sång till livet = Eines Träumers Sang an das Leben,32
-1290,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle,32
-1291,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-1292,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Eines Träumers Sang an das Leben,32
-1293,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma = Dröm,8
-1294,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
-1295,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla = Sommarnatt på stranden,26
-1296,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1297,65,work-3551edc1-c791-4d0c-8346-aecb151f0eb0,Onnelliset,4
-1298,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani = Än en visa vill jag sjunga,24
-1299,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-1300,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
-1301,216,work-ef6b6479-84a4-44b1-9e5e-d392058ba559,Jes siunatkoon,4
-1302,70,work-ed9f2734-7fbc-4ab7-a619-b5bcc9f43c55,Matkalla,4
-1303,144,work-0aac17ef-10c6-4946-a907-b62ee2e2e249,Laulajan koti,4
-1304,222,work-9352bb9e-fd48-40bf-ba78-c84fed003ac8,Monimorsiamellinen,4
-1305,199,work-32980192-a5a4-40c9-87ef-51d8145c1f80,Nyt valitkaa,4
-1306,7,work-21f010fb-0c3c-48ce-897f-081f185d00f0,Paimenten ilo,4
-1307,134,work-aa713513-5bd7-4462-80c6-f151dbe412a6,Paimenen pyhä,4
-1308,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1309,41,part-742c0767-982e-4894-bae4-58524897ab6f,Peltomiehen syyslaulu,4
-1310,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1311,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : for small orchestra : Score,88
-1312,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1313,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, soitinyhtye",88
-1314,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag = Sunnuntaina = Söndag,30
-1315,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag,30
-1316,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-1317,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-1318,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-1319,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Vågens vaggsång = Der Welle Wiegenlied,46
-1320,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Vågens vaggsång,46
-1321,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1322,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Wenn alle Uhren zwölf gesachlagen,20
-1323,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-1324,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,AAMULLA VARHAIN : VASKISEITSIKOLLE,18
-1325,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,AAMULLA VARHAIN,18
-1326,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,VASKISEITSIKOLLE,18
-1327,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani = Än en visa vill jag sjunga : Kanteletar,24
-1328,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-1329,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina = Lina,26
-1330,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Liina,26
-1331,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-1332,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,"Milloin muistelet minua = Säg, när minnes du mig",12
-1333,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua,12
-1334,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sonntag = Sunnuntaina,30
-1335,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,"Sunnuntaina / Järnefelt, Armas",30
-1336,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle : för sång och piano = Sommarnatt på stranden,26
-1337,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1338,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Tre sånger vid piano : Nocturne = Drei Lieder mit Piano,12
-1339,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Tre sånger vid piano,12
-1340,6,work-82861f89-d34a-4e02-8257-e58bed94efec,"Laulut (1910), lauluääni, piano. Nocturne",12
-1341,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
-1342,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Kylväjän laulu maalle,12
-1343,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Heinäväen laulu,12
-1344,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Korpivaellus,10
-1345,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Köyhän äidin kehtolaulu,10
-1346,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Mieron pojat korvessa,10
-1347,181,part-5199f1f8-4f54-4449-98f0-b6cbbd966140,Metsien hengen laulu,10
-1348,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Yhteisvoima,20
-1349,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Lauttamiesten laulu,20
-1350,17,part-c8a9262f-4328-4273-bef6-ed5b153ecafe,Maahisten ja vetehisten hymni,20
-1351,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Der Welle Wiegenlied,46
-1352,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1353,49,work-4d398dd6-203a-4ae5-ad42-fd75531c178b,Ständchen,4
-1354,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma : sinfooninen runo = Korsholm : sinfonische Dichtung,26
-1355,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-1356,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
-1357,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,"Kolme laulua = Tre sånger. N:o 1., Varpunen = Sparven",14
-1358,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua,14
-1359,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
-1360,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
-1361,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-1362,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet = Uneksijan laulu elämälle = Eines Träumers Sang an das Leben,32
-1363,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-1364,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Kallan Kuoron lippulaulu,6
-1365,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta -kantaatti,10
-1366,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet = Uneksijan laulu elämälle,32
-1367,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-1368,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse : Sello ja piano = violoncello o. piano,24
-1369,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Berceuse,24
-1370,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, orkesteri; sovitettu, sello, piano",24
-1371,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,"""Korsholm"", sinfonische Dichtung für grosses Orchester",26
-1372,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse [Nuottijulkaisu],72
-1373,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, viulu, piano",72
-1374,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Kehtolaulu,72
-1375,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1376,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, kamariork. (1900)",80
-1377,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm : sinfonische Dichtung für grosses Orchester = sinfooninen runo suurelle orkesterille = Korsholma,26
-1378,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
-1379,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-1380,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel och dansvisa = Eine Spiel- und Tanzweise,22
-1381,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel och dansvisa,22
-1382,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-1383,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua : N:o 1. Varpunen = Sparven,14
-1384,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Kolme laulua,14
-1385,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
-1386,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano : I solnedgången = Drei Gesänge mit piano : Im Sonnenuntergang,18
-1387,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,Tre sånger vid piano,18
-1388,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,"Laulut, lauluääni, piano. I solnedgången",18
-1389,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,"Kolme laulua = Tre sånger. No 3, Leivo = Lärkan",14
-1390,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Kolme laulua,14
-1391,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
-1392,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen : sång för en röst vid piano = Eine Träne : Lied für eine Singstimme mit piano,12
-1393,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-1394,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle = Eines träumers Sang an das Leben,32
-1395,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,Uneksijan laulu elämälle,32
-1396,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmarens sång till livet,32
-1397,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula",8
-1398,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,Laula laula,8
-1399,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : för sång och piano = Sinä,22
-1400,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-1401,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du (1933),22
-1402,119,work-71e788e5-22e1-47ed-8269-ebc2687bbefc,Den vakande modern,4
-1403,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu : laululle : för sång = Vaggsång,20
-1404,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-1405,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (1938),20
-1406,170,work-1811deb0-384c-4e8a-ae0b-f0fd9b5b1460,Köyhä,4
-1407,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina = Liina = Line,26
-1408,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-1409,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka = Syrsan,18
-1410,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-1411,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse for small orchestra,88
-1412,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork. / Järnefelt, Armas",88
-1413,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : Violine & piano : Violoncello & piano,72
-1414,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1415,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano / Järnefelt, Armas",72
-1416,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium : orchestra score,80
-1417,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-1418,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1419,195,part-8c601787-977c-475d-a6eb-694442c32adf,Kalmus orchestra scores,80
-1420,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : för sång och piano = Sinä : laululle ja pianolle,22
-1421,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-1422,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina = Söndag = Sonntag,30
-1423,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-1424,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle = Sommarnatt på stranden : för sång och piano,26
-1425,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1426,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuoksella,6
-1427,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuokselle,6
-1428,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-1429,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : for violin (or violoncello) and piano,72
-1430,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1431,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, kamariork.; sov., viulu, piano / Järnefelt, Armas",72
-1432,33,work-70c55a95-92aa-47d6-8199-4472eab01ea5,Päivän poika,4
-1433,136,work-98350654-cacc-4750-9c28-06eeead0e5cb,Langsam; Symphonische Fantasie für Orchester,4
-1434,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla : laululle ja pianolle,26
-1435,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1436,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,"Suvirannalla / Järnefelt, Armas",26
-1437,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta : kantaatti,10
-1438,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta,10
-1439,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,"Kolme laulua = Tre sånger. N:o 2., Pääskylle = Till en svala",12
-1440,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Kolme laulua,12
-1441,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
-1442,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,"""Die Drei"" für Baryton und Orchester",8
-1443,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,"""Viel' ois virttä tieossani"" = ""Än en visa vill jag sjunga""",24
-1444,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,"""Viel' ois virttä tieossani""",24
-1445,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-1446,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,En visa,8
-1447,81,work-307d996a-9433-48b8-a96e-220097cbf227,Heimathklang,6
-1448,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani : (Kanteletar),24
-1449,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
-1450,210,work-6cf523ef-d0f0-44a7-99c7-8bea24281558,Tohmajärven seurakunnan kirkonkellot (1925),4
-1451,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse : piano ms,26
-1452,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Berceuse,26
-1453,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,"Berceuset, viulu, piano (1894); sovitettu, piano",26
-1454,203,arrangement-30dc7085-9b7b-4a3f-8fb7-ac933d0e29ac,Kehtolaulu,26
-1455,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : piano,24
-1456,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-1457,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri Nro 1, Preludi; sovitettu, piano",24
-1458,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium : für kleines Orchester,80
-1459,195,part-8c601787-977c-475d-a6eb-694442c32adf,Praeludium,80
-1460,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri Nro 1, Preludi",80
-1461,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium : Piano 4 ms,16
-1462,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,Praeludium,16
-1463,139,arrangement-25c7e1c2-d79c-444d-8425-aef1ab0a8747,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano, 4-kätisesti",16
-1464,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu = Vaggsång : laululle,20
-1465,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu,20
-1466,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,Kehtolaulu (Liekku liiku),20
-1467,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin = Blumen sind am schönsten wenn erblüht,6
-1468,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin,6
-1469,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze : Violine mit Begleitung des Pianoforte,18
-1470,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
-1471,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano (1891)",18
-1472,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Festouverture = Juhla-alkusoitto,8
-1473,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Festouverture,8
-1474,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Juhla-alkusoitto,8
-1475,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till lifvet = Eines Träumers sang an das Leben : sång för en röst vid piano,32
-1476,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till lifvet,32
-1477,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
-1478,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina = Liina,26
-1479,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
-1480,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,"Laulut (1910), lauluääni, piano. Lina",26
-1481,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium : för liten orkester,24
-1482,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,Praeludium,24
-1483,122,arrangement-ef7dfc53-d6bf-4e8a-8ae5-19684561240e,"Sarjat, orkesteri (1895). Nro 1, Preludi; sovitettu, piano",24
-1484,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla = Sommarnatt på stranden : laululle ja pianolle,26
-1485,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
-1486,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze : for Violin and Piano (1891),18
-1487,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
-1488,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano (1891)",18
-1489,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze für Violine mit Begleitung des Pianoforte,18
-1490,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle : laululle ja pianolle,16
-1491,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-1492,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludium,80
-1493,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1494,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot : yksinlaulu pianosäestyksin,12
-1495,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot,12
-1496,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf = Als alle Uhren schlugen zwölf,20
-1497,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
-1498,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,Als alle Uhren schlugen zwölf,20
-1499,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning : sång för en röst och piano,18
-1500,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-1501,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
-1502,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : for small orchestra,88
-1503,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1504,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, soitinyhtye",88
-1505,159,work-4e9ca920-d421-4308-bac9-69cc52f27178,Fågeln,4
-1506,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Tre sånger vid piano : Vågsång = Wogensang,12
-1507,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Tre sånger vid piano,12
-1508,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,"Laulut (1910), lauluääni, piano. Vågsång",12
-1509,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle = Till en svala,12
-1510,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
-1511,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,Die Drei,8
-1512,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,"Die Drei; sovitettu, lauluääni, piano",8
-1513,195,part-8c601787-977c-475d-a6eb-694442c32adf,Präludium,80
-1514,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1515,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu : (Hiljaa, hiljaa ilta on...)",18
-1516,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,Kehtolaulu,18
-1517,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa! ilta on)",18
-1518,191,work-21ed6ea6-95f6-4573-962a-e2e72c085783,Preludio funèbre,4
-1519,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Festklanger,6
-1520,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Juhlakaikuja,6
-1521,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse för liten orkester,88
-1522,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1523,195,part-8c601787-977c-475d-a6eb-694442c32adf,Prelude,80
-1524,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit (1900), orkesteri",80
-1525,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot = Fosterlandets anlete, kantat",12
-1526,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot,12
-1527,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot, kantaatti",12
-1528,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique = (Lyrical overture),18
-1529,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-1530,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
-1531,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit,80
-1532,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1533,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset,",24
-1534,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, viulu, piano; sovitettu, sello, piano",24
-1535,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
-1536,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain : vaskiseitsikolle = for brass septet,18
-1537,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,Aamulla varhain,18
-1538,95,arrangement-a0b553ba-466e-4c47-94da-e3037704a7a1,"Aamulla varhain; sovitettu, vaskipuhaltimet.",18
-1539,195,part-8c601787-977c-475d-a6eb-694442c32adf,Prelude for orchestra,80
-1540,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1541,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
-1542,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,"Häämarssi, urut",16
-1543,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografikunnan marssi,10
-1544,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi : pienelle orkesterille,80
-1545,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1546,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1547,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto = Wedding music,16
-1548,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto,16
-1549,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
-1550,88,work-1c09181e-e664-4c59-984e-b3f8b9e5bb3f,Satu,4
-1551,232,work-66b8ab3c-63e1-43df-8fcf-ec47bb838c5c,Virran rannalla,4
-1552,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntai,30
-1553,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
-1554,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta = Solsken = Sonnenschein = Sunshine,16
-1555,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta,16
-1556,116,work-77bb83dd-51f3-4406-bf98-887544c9872f,Suottako Suomi luottaa Luojahansa,4
-1557,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaisteita,16
-1558,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Auringonpaistetta,16
-1559,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Kolybelńaâ,72
-1560,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-1561,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi = Praeludium,80
-1562,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1563,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, ork",80
-1564,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludit, orkesteri",80
-1565,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi = Prelude,80
-1566,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi,80
-1567,190,work-4ba9b2bd-6e04-440a-b848-d8eabfe72e79,Hyljätyn valitus,4
-1568,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle = Till kantele,16
-1569,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
-1570,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografimarssi,10
-1571,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Preludi, ork",80
-1572,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit : ork,80
-1573,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludit,80
-1574,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi orkesterille,80
-1575,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset : viulu, piano, sov., ork",88
-1576,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuset,88
-1577,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Berceuset, sello, piano",24
-1578,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl : yksinlaulu,6
-1579,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl,6
-1580,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,3 klavierstücke op4 (1895?),12
-1581,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
-1582,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuse : pienelle orkesterille myös stereonauhalla +lps 25.971:a1,2,3, 4,5 : 1. Raita",88
-1583,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1584,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1585,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,3 Klavierstücke op.4,12
-1586,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
-1587,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa : yksinlaulu,22
-1588,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
-1589,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvis,22
-1590,145,work-cf009960-fcbf-4679-8be0-cfe1432232eb,Silloinpa kesä minulla,4
-1591,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse : Kehtolaulu : versio viululle ja pianolle,72
-1592,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,Berceuse,72
-1593,162,arrangement-1b6972cb-e00a-4390-a0ea-005d8b85d50d,"Berceuset, orkesteri; sovitettu, viulu, piano",72
-1594,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång = Der Velle Wiegenlied,46
-1595,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1596,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1597,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU. 1.,46
-1598,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,AALLON KEHTOLAULU,46
-1599,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1600,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggvisa = Der Welle Wiegenlied,46
-1601,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1602,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu = Vågens vaggsång,46
-1603,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
-1604,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Der Welle Wiegenlied,46
-1605,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork",88
-1606,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1607,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi orkesterill.,80
-1608,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Kuin painuva päivä,8
-1609,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
-1610,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografiamarssi,10
-1611,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyric overture,18
-1612,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Ouverture lyrique,18
-1613,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"[Berceuset, viulu, piano; sov., ork.]",88
-1614,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov. ork",88
-1615,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, Viulu, piano",88
-1616,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork.",88
-1617,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sovitettu, orkesteri",88
-1618,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuce,88
-1619,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork",88
-1620,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1621,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma : symphonic poem = Korsholm,26
-1622,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
-1623,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu (1902),46
-1624,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig : tullos kanssain : mieskuorolle ja bari- tonille : tks: Josef Julius wecksell,16
-1625,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-1626,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
-1627,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen : Kevätpisara yksinlaulu,12
-1628,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
-1629,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år : Kolmetoistavuotias yksinlaulu,6
-1630,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år,6
-1631,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du : Sinä yksinlaulu,22
-1632,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
-1633,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,"Spel- och dansvisa, En : Pelimannin tanssilaulu yksinlaulu",22
-1634,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,"Spel- och dansvisa, En",22
-1635,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår : Olet aurinko, olet kevät yksinlaulu",6
-1636,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår",6
-1637,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning : Hämärä (Hvad detta svala dunkel) yksinlaulu,6
-1638,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning,6
-1639,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne : yksinlaulu,12
-1640,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne,12
-1641,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång : Aaltojen laulu yksinlaulu,12
-1642,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång,12
-1643,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen : yksinlaulu,6
-1644,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen,6
-1645,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,"Visa, En : Laulu (Det faller ett guldnadt löf på min väg ) yksinlaulu",8
-1646,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,"Visa, En",8
-1647,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning : yksinlaulu : tks: alceste,18
-1648,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-1649,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse(kehtolaulu),88
-1650,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, Viulu, piano; Sov, ork",88
-1651,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamriork",88
-1652,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isämaan kasvot,12
-1653,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,"Isänmaan kasvot; sovitettu, lauluääni, piano",12
-1654,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu ; Berceuse,88
-1655,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1656,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, viulu, piano; sov., ork",88
-1657,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta = Den nya och gamla vännen,8
-1658,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta,8
-1659,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Den nya och gamla vännen,8
-1660,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning = Hämärä= Dämmerung,18
-1661,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning,18
-1662,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
-1663,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot = Tidens vågor,12
-1664,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot,12
-1665,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka : mieskuorolle a cappella kokoelmasta Seitsemän miesäänistä laulua,18
-1666,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-1667,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse : Kehtolaulu : pienelle orkesterille,88
-1668,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Berceuse,88
-1669,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1670,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen,16
-1671,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1672,195,part-8c601787-977c-475d-a6eb-694442c32adf,Preludi (Preludium),80
-1673,195,part-8c601787-977c-475d-a6eb-694442c32adf,"Sarjat, orkesteri (1895). Nro 1, Preludi",80
-1674,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka = Die grille = The grasshopper,18
-1675,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
-1676,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Grille,18
-1677,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Grasshopper,18
-1678,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Der du von dem Himmel bist,22
-1679,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1680,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Kulkijan huokaus = Vaeltajan yölaulu,22
-1681,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1682,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,Bercueset,24
-1683,179,arrangement-62c6c816-d144-4ac4-b73e-856288c014c5,"Bercueset, viulu, piano; sovitettu, sello, piano",24
-1684,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Kulkijan huokaus,22
-1685,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1686,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig = Tullos kanssain,16
-1687,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig,16
-1688,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Rajamailla,12
-1689,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,"Ajan aallot, sekakuoro",12
-1690,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu : pienelle orkesterille,88
-1691,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,Kehtolaulu,88
-1692,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
-1693,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied = Vandrarens nattsång,22
-1694,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderers Nachtlied,22
-1695,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Der du von dem Himmel bist,22
-1696,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä = Solen i vägen sig sänkte,16
-1697,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
-1698,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä : nr 4 ur Seitsemän miesäänistä laulua,16
-1699,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
+0,187,work-ce48c33a-2ad8-47a1-b1ff-ce42f75fc3b0,"Kappaleet, piano, op4",12
+1,178,work-2283fb34-a89c-4715-8089-f156f6e1b762,Aallon kehtolaulu,46
+2,153,work-cb437cb0-6fb0-4d44-8452-751acdc04b28,Åbo slott,2
+3,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Ajan aallot,12
+4,235,work-eca94473-699f-46f8-87fe-9cc5d9bf5513,Rajamailla,12
+5,67,work-66128cc9-07ad-4509-b9c0-5bab19828b2e,Am stillen Dorfe erhebt sich,4
+6,0,work-50827b4b-4726-4f94-8d3b-0ea8272eaff4,"Andante, jousiorkesteri",4
+7,0,work-50827b4b-4726-4f94-8d3b-0ea8272eaff4,"Andante, jousiork.",4
+8,39,work-3b097923-dfef-4885-8458-7ec2c12fa2e4,Andre beten zur Madonna,2
+9,44,work-8d138f62-875e-43aa-82ff-472616d66963,Anni,2
+10,207,work-db4c0908-4ce5-4670-9238-029e69dfea0b,Armahan kulku,2
+11,28,work-62aa78b8-4c09-4adc-aa00-ea12237c4956,Armasta odottaessa,2
+12,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, orkesteri",88
+13,237,work-35b1e712-39c0-4292-8d5e-fba3747f9f1b,"Berceuset, kamariork.",88
+14,171,work-abc3e808-ab46-4c01-b318-d00578b1f514,Betlehems stjärna,2
+15,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Bröllopsmarsch,16
+16,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Häämarssi,16
+17,25,work-c0bb6f15-7f01-4878-9c61-0b00c0d72e99,Hääsoitto,16
+18,3,work-f8ae42f7-35a0-4dc8-a632-c441d9858f64,Carmen,6
+19,118,work-3bce4f40-e064-48bf-99a6-5d7362825c47,Carmen Careliense,4
+20,118,work-3bce4f40-e064-48bf-99a6-5d7362825c47,Joensuu-kantaatti,4
+21,143,work-1004bc8f-55b5-430b-b8bb-6ff127610a95,En dockvisa,2
+22,40,work-64762ab1-6d32-4d43-a39b-e7b777412a93,Die Drei,8
+23,97,work-6b531302-e3b1-459f-bbb6-2198e4701392,En drömmares sång till livet,32
+24,131,work-4996fd7a-676e-4fa1-adbb-9cf90fe164fd,Du,22
+25,63,work-26522932-6cc7-4a19-b98e-90bb198598b5,"Du är sol, du är vår",6
+26,188,work-49002e67-8524-47b3-b88d-633aa6d75754,Die Du bist so schön und rein,2
+27,189,work-884f057f-2b36-411b-b52c-50d46969803f,Du hast Diamanten und Perlen,2
+28,152,work-e356c364-f35b-4db5-82cf-ca2d56ad6e40,Dvärgens hämd,2
+29,42,work-be5cac31-1afa-4862-81b3-be1a05eb3772,Einsam schreitend wandl' ich,2
+30,154,work-fe639e91-7923-4202-8197-b215075b7c9b,Elämän laulu,2
+31,159,work-4e9ca920-d421-4308-bac9-69cc52f27178,Fågeln,4
+32,230,work-af2aeb42-2369-48e3-bc85-a1007e702e6c,Fåglarna,2
+33,78,work-d1d8ec6b-d0e1-481c-92be-b0b8088430b5,Farväl,6
+34,224,work-f0ddd7e7-f4b2-48df-89b1-9aa7a3f05079,Den flydda,8
+35,113,work-1cbce381-248f-42f4-ac70-304f082b52b3,Den flygande holländaren,2
+36,101,work-803ba36f-dec9-4d92-a09e-9657e2a9e322,Gute Ruhe,2
+37,81,work-307d996a-9433-48b8-a96e-220097cbf227,"Heimathklang, lauluääni, piano",6
+38,81,work-307d996a-9433-48b8-a96e-220097cbf227,Heimathklang,6
+39,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,"Heimathklang, orkesteri",8
+40,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotimaan kaikuja,8
+41,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotimaan sävel,8
+42,76,work-b7b8e211-1599-4fa1-92ea-599afe15ef9e,Kotiseudun kaikuja,8
+43,151,work-90704812-9c60-4167-b713-cc3cb6937594,Hör ich das Liedchen klingen,2
+44,190,work-4ba9b2bd-6e04-440a-b848-d8eabfe72e79,Hyljätyn valitus,4
+45,236,work-1926a32a-8a53-455c-a272-f6c19209dfb7,I solnedgången,18
+46,137,work-29163230-13ab-4860-8738-f819fe09b32f,Ich stand in dunkeln Träumen,2
+47,161,work-e1dd9b1d-f783-4834-8c4a-18e045956ba9,Ich wollte meine Lieder,2
+48,201,work-9ea0f8ad-ed87-43fd-bf23-f678a0b52b3a,Im Vaters Garten heimlich steht,2
+49,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,Isänmaan kasvot (kantaatti),12
+50,132,work-5a3683be-993b-4fde-a7f2-b482edef671d,"Isänmaan kasvot, kantaatti",12
+51,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot (laulu),12
+52,164,work-d684f311-c898-42c4-a8f6-99c3fb372458,Isänmaan kasvot,12
+53,216,work-ef6b6479-84a4-44b1-9e5e-d392058ba559,Jes siunatkoon,4
+54,220,work-fa03a651-16cf-41f4-9642-5bfafab026d5,Juhla-alkusoitto,8
+55,68,work-a1294b4d-f9f3-42a6-b734-43fc5cf472b9,Juhlakaikuja,6
+56,13,work-0566820c-7258-4aa0-ad5b-de712083a802,Kaiholle,2
+57,169,work-8d2403f6-ce61-4daa-9399-9b8a94cd6968,Kallan kuoron lippulaulu,6
+58,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallan ranta,10
+59,218,work-9159dcf6-78dd-4791-a5bf-0a1a06257a2f,Kallanranta-kantaatti,10
+60,14,work-a11c7a29-d305-4f56-b22b-faf874e8a3fa,Kantat vid St. Joh. Logens 175 årsjubileum,2
+61,125,work-b637a13f-a287-4cca-9939-19f4acfc5fed,Kanteleelle,16
+62,106,work-055f9f0d-d185-40a9-b787-93c79dac65b8,Kanteletar,2
+63,52,work-d6294df5-da3a-414b-a8cd-36e85e09dc41,Karhunlaulu,2
+64,228,work-508271f4-3ab0-4a2a-b121-ec595ae12e18,"Kehtolaulu (Hiljaa, hiljaa! ilta on)",18
+65,184,work-4ce98cd6-fd1f-41d1-83f7-af6d520a8643,"Kehtolaulu (Liekku liiku, kätkyt kiiku)",20
+66,141,work-467810d4-25d5-4634-a1c4-aa4f78834f6d,Kesäilta,2
+67,64,work-46f0b1f5-cd10-4c4c-b006-3fc9387d8fd7,Kesäyö,2
+68,238,work-d0c6bd65-4c92-492b-8ee1-7c8af3acaf09,Kolme suomalaista kansanlaulua,4
+69,238,work-d0c6bd65-4c92-492b-8ee1-7c8af3acaf09,Tre finske folkviser,4
+70,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholma,26
+71,8,work-3687cf59-b7ab-42be-a965-1ad6e06ace36,Korsholm,26
+72,170,work-1811deb0-384c-4e8a-ae0b-f0fd9b5b1460,Köyhä,4
+73,120,work-da27adc1-0b51-4d22-8d48-c196dbb5c3f1,Kuopio-kantaatti,4
+74,120,work-da27adc1-0b51-4d22-8d48-c196dbb5c3f1,Kuopio,4
+75,148,work-b752dbb4-558b-4cc7-9b8a-d03e9c577453,Lapsuuden ajoilta,2
+76,206,work-283e74f0-77d2-40df-8b90-fb06249a37cf,"Laula, laula",8
+77,144,work-0aac17ef-10c6-4946-a907-b62ee2e2e249,Laulajan koti,4
+78,229,work-e2ae48c2-fab5-4693-af0f-76302e984ae0,Laulajapoika,2
+79,212,work-03550f34-8947-4925-a8f5-0cdafa0893b0,Laulu tulipunaisesta kukasta,4
+80,212,work-03550f34-8947-4925-a8f5-0cdafa0893b0,Sången om den eldröda blomman,4
+81,92,work-fd0a6972-b045-4e3b-95f6-7f96cf77e7dc,Laulu Vuokselle,6
+82,102,work-ce3db24a-42f2-46a7-9119-9978752753f7,Das Leben,2
+83,244,work-9f587946-7a48-4b63-bc30-f9f1c2119874,Leivo,14
+84,72,work-03efe84d-3fa8-462f-9b46-d6b3fbf0bcbc,Liebestraum,2
+85,182,work-b8340081-b08c-491b-8f96-ffc21fc1f95c,Lina,26
+86,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Luvattu maa (näytelmämusiikki),6
+87,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Det förlovade landet,6
+88,110,work-7870c1f2-a7c8-41b5-ab29-b16eba9c69f9,Luvattu maa,6
+89,86,work-dc55493d-863a-4d6b-8e6a-544be9870912,Luvattu maa (sarja),4
+90,86,work-dc55493d-863a-4d6b-8e6a-544be9870912,"Luvattu maa, sarja",4
+91,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Lyyrinen alkusoitto,18
+92,135,work-58c60ba8-60bd-490e-93a2-e6484c583a94,Overture Lyrique,18
+93,2,work-5e4d00bc-11b0-4164-982c-a68e2e78e104,Mä lemmenkukan istutin,2
+94,35,work-a26737c0-a497-4779-92e7-51f55f0def2b,Maamme,2
+95,107,work-c6629c71-e735-44b8-a780-f16a3520c8eb,Maan sävel,12
+96,231,work-1f20c9b4-b806-4399-a598-2879b7201ad8,Manch Bild vergessener Zeiten,2
+97,70,work-ed9f2734-7fbc-4ab7-a619-b5bcc9f43c55,Matkalla,4
+98,172,work-dfd0b070-e342-4e7a-b7dd-f8963a0d0f17,"Mein Liebchen, wir sassen beisammen",2
+99,46,work-56d61007-4fe8-4493-bd2c-9bc57de01aef,Metsäkyyhkyset,2
+100,217,work-73ba478d-c5fe-464f-80cf-0b61b9394c7d,Milloin muistelet minua?,12
+101,121,work-ba9a5b30-b4ab-47a0-a4f2-a5bc5bfe6cbf,Miranda,2
+102,222,work-9352bb9e-fd48-40bf-ba78-c84fed003ac8,Monimorsiamellinen,4
+103,24,work-f9a9a729-0846-4030-b38d-99e95e071c7d,"Muunnelmat, piano",4
+104,24,work-f9a9a729-0846-4030-b38d-99e95e071c7d,Variatioonia pianolle,4
+105,209,work-f4134cf7-4330-4ffc-bb4a-738f6efb728a,Muut ne kuuli kirkonkellon,2
+106,66,work-34e2ff34-b32d-4802-a3b3-2cafcfe8be5d,När alla klockor klämtat tolf,20
+107,6,work-82861f89-d34a-4e02-8257-e58bed94efec,Nocturne,12
+108,127,work-b2fc933b-144e-42dc-aa2b-ad53640215c9,"Nocturnet, piano",2
+109,185,work-abd3a207-1437-48e4-af33-3cbed82eb628,Normaalilyseon 50-vuotisriemujuhlakantaatti,2
+110,1,work-cea78876-4b15-481c-83a2-a4db9d591b5c,"Nu har han kommit, den gyllne vår",2
+111,199,work-32980192-a5a4-40c9-87ef-51d8145c1f80,Nyt valitkaa!,4
+112,96,work-2086ff3a-9b32-4b88-b462-19ee76b00c9e,"O, lüge nicht",2
+113,208,work-deaced24-ab04-4c40-ab14-268c60e652d7,Ödets stjärna,2
+114,234,work-43df518b-d6f4-49d4-9c89-18be1fc03b27,Omenan kukat,2
+115,65,work-3551edc1-c791-4d0c-8346-aecb151f0eb0,Onnelliset,4
+116,165,work-96dc24f7-e543-4013-bd23-74f398647cbf,Onneni saari,2
+117,183,work-36e07db8-e99d-421b-bcd5-7250fc4898f7,Orpo ja lintu,2
+118,69,work-c4a77052-8630-4cbf-a65d-e46fca9e008a,På havet,2
+119,242,work-c112aca7-b3c9-4062-9b6d-3ad0ffc0c91d,Pääskylle,12
+120,134,work-aa713513-5bd7-4462-80c6-f151dbe412a6,Paimenen pyhä,4
+121,7,work-21f010fb-0c3c-48ce-897f-081f185d00f0,Paimenten ilo,4
+122,20,work-ebcf0651-24e0-4437-8c5a-4aa043c90921,Paista päivä paimenelle,2
+123,33,work-70c55a95-92aa-47d6-8199-4472eab01ea5,Päivän poika,4
+124,15,work-b452f7fc-95a7-4eb1-b870-937bb157a13f,Pieni laulu Maikille,2
+125,91,work-7a39b38d-d0f0-444d-a99b-c8b003d89720,Pois meni merehen päivä,16
+126,191,work-21ed6ea6-95f6-4573-962a-e2e72c085783,Preludio funèbre,4
+127,93,work-af890f34-e5ef-4912-b4d3-ffbcb6de8285,Puhjetessa kukka puhtahin,6
+128,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,"Romanssit, viulu, piano",18
+129,112,work-56f84d24-e558-4d37-ac89-1b16a139e75d,Romanze,18
+130,226,work-1ab454c5-d9ae-491b-8c17-770f3e785522,Så brådtom har nu mammor små,2
+131,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, orkesteri (1895)",6
+132,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, kamariork.",6
+133,56,work-524f296f-ee9f-4d73-8764-a7881a5130bf,"Sarjat, orkesteri",6
+134,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, orkesteri, Es-duuri (1897)",10
+135,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,Kleine Suite,10
+136,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,Pieni sarja,10
+137,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, ork., Es-duuri",10
+138,98,work-4f5abb46-44ac-49e8-9d76-4dd5dc08fd4b,"Sarjat, orkesteri, Es-duuri",10
+139,168,work-f0c8bba9-4f91-467a-96aa-99b6d1d52a40,"Sarjat, viulu, piano, F-duuri",2
+140,88,work-1c09181e-e664-4c59-984e-b3f8b9e5bb3f,Satu,4
+141,31,work-e216d734-ebd3-4596-a86a-986c3c65482d,Serenad,2
+142,21,work-8fa53826-1919-4070-a0d2-306182c0ba7f,"Serenadit, orkesteri",4
+143,21,work-8fa53826-1919-4070-a0d2-306182c0ba7f,"Serenadit, ork.",4
+144,145,work-cf009960-fcbf-4679-8be0-cfe1432232eb,Silloinpa kesä minulla,4
+145,94,work-3b4e5168-e8d2-4a85-b7aa-72e182b06e6b,"Sinfoniat, D-duuri",2
+146,136,work-98350654-cacc-4750-9c28-06eeead0e5cb,Sinfoninen fantasia,4
+147,80,work-a33e672a-ead4-4d25-8e45-84277c6ed566,Sirkka,18
+148,196,work-ea129869-97f7-4677-a37d-edc08041617f,Skymning (När en gång),18
+149,156,work-c06ea8d1-1334-414f-a864-5d37770842e7,Skymning (Vad detta svala),6
+150,45,work-a5630ac0-eaa9-4d2e-b930-e00bddbeef15,Solsken,16
+151,53,work-540a71c7-3658-4049-becf-1e1cd80d8608,Sondbyn laulu,2
+152,157,work-b22f22f9-134f-4726-aeb2-19b9eb26f2d5,En spel- och dansvisa,22
+153,49,work-4d398dd6-203a-4ae5-ad42-fd75531c178b,Ständchen,4
+154,10,work-cf5095cc-2436-4733-8b74-d6e9912c2f7c,Sunnuntaina,30
+155,126,work-58f1e149-0f7d-4ac8-b161-81d4afeafee8,Suomalainen rapsodia,2
+156,138,work-197389b8-a022-41b1-990e-b8a64e99dad7,Suomen synty,2
+157,116,work-77bb83dd-51f3-4406-bf98-887544c9872f,Suottako Suomi luottaa Luojaansa,4
+158,205,work-c8abf587-e537-4ee6-b2c7-0654feab3eaa,Suuri salaisuus,2
+159,84,work-93a29bc0-6d34-4737-b41a-236c9e4a88c9,Suvirannalla,26
+160,166,work-7a194b78-bee8-42cb-b92f-5df1045c14f7,Svanen,2
+161,11,work-57072835-4b19-4769-b899-15a331c26ade,Tanssin kulku,4
+162,111,work-f589c217-01fa-410e-8f26-2328a59402f7,Temppelinrakentajat,2
+163,197,work-6a3cd2e6-2744-4e62-9aab-216abaa7dddf,Till en brud,2
+164,150,work-823b3db9-55e6-472e-98a4-5abb2ec8fee8,Titania,8
+165,57,work-29cb33e8-8e09-41f3-8e60-82aa0fcad6e5,Titus,2
+166,210,work-6cf523ef-d0f0-44a7-99c7-8bea24281558,Tohmajärven seurakunnan kirkonkellot,4
+167,38,work-4d11e9da-6b9f-4500-8d0c-19bd85818cbf,Toivoni,8
+168,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografikunnan marssi,10
+169,77,work-026e9079-d90b-491d-a9de-f336e682b25d,Topografkårens marsch,10
+170,16,work-83ca165d-4b09-49e5-8441-3b88dcf75e1e,Tretton år,6
+171,62,work-03c3f52c-4fc6-4d09-9ed0-19cf10fb284f,Und weil mich das Leben belogen,2
+172,54,work-3a09a65c-7b95-4624-ae45-4e707b450f43,Unelma,8
+173,200,work-a8528442-196e-4649-a1ca-38dfcc0abaec,Uusi kulta ja vanha kulta,8
+174,158,work-1f5f59b0-6289-46b9-924e-f2f8b9265bc0,Vågsång,12
+175,119,work-71e788e5-22e1-47ed-8269-ebc2687bbefc,Den vakande modern,4
+176,198,work-de9b3e2f-1dc9-4d79-8e1f-5d6ab31c7137,Vårdroppen,12
+177,26,work-cf290c72-f4e4-4629-ab19-58cfd66da332,Varpunen,14
+178,18,work-e6aea33e-14aa-43ac-8e0e-74380bc80231,Vasti,4
+179,18,work-e6aea33e-14aa-43ac-8e0e-74380bc80231,Valse lente,4
+180,173,work-b59ae6dd-02d0-443e-941d-ed2aa7264882,Venehelle tuulta,2
+181,99,work-ea0da36c-2336-44a3-9587-cbe94350b822,Venelaulu,4
+182,99,work-ea0da36c-2336-44a3-9587-cbe94350b822,Wenelaulu,4
+183,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' ois virttä tieossani,24
+184,109,work-272e00d4-02f5-47c8-bdd1-8bce60a6e32a,Viel' olis virttä tiedossani,24
+185,180,work-76438440-ca85-40c3-a457-9ce8340b8ee1,Vill du komma med mig?,16
+186,232,work-66b8ab3c-63e1-43df-8fcf-ec47bb838c5c,Virran rannalla,4
+187,140,work-fae95808-f219-42f7-92fd-5b55a81ff379,En visa,8
+188,177,work-55a0846a-8b64-4f83-bd63-068c8236f4b5,Vredens barn,2
+189,211,work-b3bc20ef-5c1c-48c7-b6c7-80a10f6dd105,Wanderes Nachtlied,22
